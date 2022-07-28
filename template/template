@@ -1,15 +1,22 @@
 <html>
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>测试报告</title>
-    <link href="https://cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://cdn.bootcss.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
-    <link href="https://cdn.bootcss.com/animate.css/3.5.2/animate.min.css" rel="stylesheet">
-    <link href="https://cdn.bootcss.com/chosen/1.8.2/chosen.css" rel="stylesheet">
+    <title>測試報告</title>
+    <link href="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/4.6.1/css/bootstrap.css" rel="stylesheet">
+    <link href="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/4.6.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.bootcdn.net/ajax/libs/font-awesome/6.0.0-beta3/css/fontawesome.css" rel="stylesheet">
+    <link href="https://cdn.bootcdn.net/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
+    <link href="https://cdn.bootcdn.net/ajax/libs/chosen/1.8.8.rc6/chosen.css" rel="stylesheet">
     <base target="_blank">
     <style type="text/css">
-        h1, h2, h3, h4, h5, h6 {
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
             font-weight: 100
         }
 
@@ -37,7 +44,9 @@
             font-size: 10px
         }
 
-        h3, h4, h5 {
+        h3,
+        h4,
+        h5 {
             margin-top: 5px;
             font-weight: 600
         }
@@ -46,34 +55,37 @@
             outline: 0
         }
 
-        .nav > li > a {
+        .nav>li>a {
             color: #a7b1c2;
             font-weight: 600;
             padding: 14px 20px 14px 25px
         }
 
-        .nav li > a {
+        .nav li>a {
             display: block
         }
 
-        .nav.navbar-right > li > a {
+        .nav.navbar-right>li>a {
             color: #999c9e
         }
 
-        .nav > li.active > a {
+        .nav>li.active>a {
             color: #fff
         }
 
-        .navbar-default .nav > li > a:focus, .navbar-default .nav > li > a:hover {
+        .navbar-default .nav>li>a:focus,
+        .navbar-default .nav>li>a:hover {
             background-color: #293846;
             color: #fff
         }
 
-        .nav .open > a, .nav .open > a:focus, .nav .open > a:hover {
+        .nav .open>a,
+        .nav .open>a:focus,
+        .nav .open>a:hover {
             background: #fff
         }
 
-        .nav > li > a i {
+        .nav>li>a i {
             margin-right: 6px
         }
 
@@ -120,7 +132,7 @@
             box-shadow: 0 0 3px rgba(86, 96, 117, .3)
         }
 
-        .dropdown-menu > li > a {
+        .dropdown-menu>li>a {
             border-radius: 3px;
             color: inherit;
             line-height: 25px;
@@ -129,7 +141,7 @@
             font-weight: 400
         }
 
-        .dropdown-menu > li > a.font-bold {
+        .dropdown-menu>li>a.font-bold {
             font-weight: 600
         }
 
@@ -150,7 +162,9 @@
             white-space: normal
         }
 
-        .navbar-top-links .dropdown-alerts, .navbar-top-links .dropdown-messages, .navbar-top-links .dropdown-tasks {
+        .navbar-top-links .dropdown-alerts,
+        .navbar-top-links .dropdown-messages,
+        .navbar-top-links .dropdown-tasks {
             width: 310px;
             min-width: 0
         }
@@ -172,15 +186,18 @@
             left: auto
         }
 
-        .dropdown-alerts, .dropdown-messages {
+        .dropdown-alerts,
+        .dropdown-messages {
             padding: 10px
         }
 
-        .dropdown-alerts li a, .dropdown-messages li a {
+        .dropdown-alerts li a,
+        .dropdown-messages li a {
             font-size: 12px
         }
 
-        .dropdown-alerts li em, .dropdown-messages li em {
+        .dropdown-alerts li em,
+        .dropdown-messages li em {
             font-size: 10px
         }
 
@@ -193,12 +210,12 @@
             background: url(patterns/header-profile.png) no-repeat
         }
 
-        .nav > li.active {
+        .nav>li.active {
             border-left: 4px solid #19aa8d;
             background: #293846
         }
 
-        .nav.nav-second-level > li.active {
+        .nav.nav-second-level>li.active {
             border: none
         }
 
@@ -263,11 +280,12 @@
             content: "\f104"
         }
 
-        .active > a > .fa.arrow:before {
+        .active>a>.fa.arrow:before {
             content: "\f107"
         }
 
-        .nav-second-level li, .nav-third-level li {
+        .nav-second-level li,
+        .nav-third-level li {
             border-bottom: none !important
         }
 
@@ -284,14 +302,15 @@
             margin-bottom: 10px
         }
 
-        .mini-navbar .nav li:focus > .nav-second-level, body:not(.fixed-sidebar):not(.canvas-menu).mini-navbar .nav li:hover > .nav-second-level {
+        .mini-navbar .nav li:focus>.nav-second-level,
+        body:not(.fixed-sidebar):not(.canvas-menu).mini-navbar .nav li:hover>.nav-second-level {
             display: block;
             border-radius: 0 2px 2px 0;
             min-width: 140px;
             height: auto
         }
 
-        body.mini-navbar .navbar-default .nav > li > .nav-second-level li a {
+        body.mini-navbar .navbar-default .nav>li>.nav-second-level li a {
             font-size: 12px;
             border-radius: 0 2px 2px 0
         }
@@ -301,7 +320,7 @@
             position: relative
         }
 
-        .slimScrollDiv > * {
+        .slimScrollDiv>* {
             overflow: hidden
         }
 
@@ -356,7 +375,11 @@
             padding: 18px 0
         }
 
-        .pace-done #page-wrapper, .pace-done .footer, .pace-done .nav-header, .pace-done .navbar-static-side, .pace-done li.active {
+        .pace-done #page-wrapper,
+        .pace-done .footer,
+        .pace-done .nav-header,
+        .pace-done .navbar-static-side,
+        .pace-done li.active {
             -webkit-transition: all .5s;
             transition: all .5s
         }
@@ -367,7 +390,8 @@
             z-index: 2030
         }
 
-        .navbar-fixed-top, .navbar-static-top {
+        .navbar-fixed-top,
+        .navbar-static-top {
             background: #f3f3f4
         }
 
@@ -388,7 +412,9 @@
             width: 70px
         }
 
-        body.mini-navbar .nav-label, body.mini-navbar .navbar-default .nav li a span, body.mini-navbar .profile-element {
+        body.mini-navbar .nav-label,
+        body.mini-navbar .navbar-default .nav li a span,
+        body.mini-navbar .profile-element {
             display: none
         }
 
@@ -400,7 +426,7 @@
             display: none
         }
 
-        body.mini-navbar .navbar-default .nav > li > a {
+        body.mini-navbar .navbar-default .nav>li>a {
             font-size: 16px
         }
 
@@ -425,11 +451,13 @@
             margin: 0 0 0 70px
         }
 
-        body.canvas-menu.mini-navbar #page-wrapper, body.canvas-menu.mini-navbar .footer {
+        body.canvas-menu.mini-navbar #page-wrapper,
+        body.canvas-menu.mini-navbar .footer {
             margin: 0
         }
 
-        body.canvas-menu .navbar-static-side, body.fixed-sidebar .navbar-static-side {
+        body.canvas-menu .navbar-static-side,
+        body.fixed-sidebar .navbar-static-side {
             position: fixed;
             width: 220px;
             z-index: 2001;
@@ -440,7 +468,8 @@
             width: 70px
         }
 
-        body.body-small.fixed-sidebar.mini-navbar #page-wrapper, body.fixed-sidebar.mini-navbar #page-wrapper {
+        body.body-small.fixed-sidebar.mini-navbar #page-wrapper,
+        body.fixed-sidebar.mini-navbar #page-wrapper {
             margin: 0 0 0 70px
         }
 
@@ -448,7 +477,7 @@
             width: 70px
         }
 
-        .fixed-sidebar.mini-navbar .nav li > .nav-second-level {
+        .fixed-sidebar.mini-navbar .nav li>.nav-second-level {
             display: none
         }
 
@@ -456,7 +485,8 @@
             border-left-width: 0
         }
 
-        .canvas-menu.mini-navbar .nav li:hover > .nav-second-level, .fixed-sidebar.mini-navbar .nav li:hover > .nav-second-level {
+        .canvas-menu.mini-navbar .nav li:hover>.nav-second-level,
+        .fixed-sidebar.mini-navbar .nav li:hover>.nav-second-level {
             position: absolute;
             left: 70px;
             top: 0;
@@ -468,27 +498,30 @@
             border-radius: 2px
         }
 
-        body.fixed-sidebar.mini-navbar .navbar-default .nav > li > .nav-second-level li a {
+        body.fixed-sidebar.mini-navbar .navbar-default .nav>li>.nav-second-level li a {
             font-size: 12px;
             border-radius: 3px
         }
 
-        body.canvas-menu.mini-navbar .navbar-default .nav > li > .nav-second-level li a {
+        body.canvas-menu.mini-navbar .navbar-default .nav>li>.nav-second-level li a {
             font-size: 13px;
             border-radius: 3px
         }
 
-        .canvas-menu.mini-navbar .nav-second-level li a, .fixed-sidebar.mini-navbar .nav-second-level li a {
+        .canvas-menu.mini-navbar .nav-second-level li a,
+        .fixed-sidebar.mini-navbar .nav-second-level li a {
             padding: 10px 10px 10px 15px
         }
 
-        .canvas-menu.mini-navbar .nav-second-level, .fixed-sidebar.mini-navbar .nav-second-level {
+        .canvas-menu.mini-navbar .nav-second-level,
+        .fixed-sidebar.mini-navbar .nav-second-level {
             position: relative;
             padding: 0;
             font-size: 13px
         }
 
-        .canvas-menu.mini-navbar li.active .nav-second-level, .fixed-sidebar.mini-navbar li.active .nav-second-level {
+        .canvas-menu.mini-navbar li.active .nav-second-level,
+        .fixed-sidebar.mini-navbar li.active .nav-second-level {
             left: 0
         }
 
@@ -509,13 +542,14 @@
             margin-left: 0
         }
 
-        .top-navigation .navbar-nav .dropdown-menu > .active > a {
+        .top-navigation .navbar-nav .dropdown-menu>.active>a {
             background: #fff;
             color: #1ab394;
             font-weight: 700
         }
 
-        .white-bg .navbar-fixed-top, .white-bg .navbar-static-top {
+        .white-bg .navbar-fixed-top,
+        .white-bg .navbar-static-top {
             background: #fff
         }
 
@@ -523,22 +557,23 @@
             margin-bottom: 0
         }
 
-        .top-navigation .nav > li > a {
+        .top-navigation .nav>li>a {
             padding: 15px 20px;
             color: #676a6c
         }
 
-        .top-navigation .nav > li a:focus, .top-navigation .nav > li a:hover {
+        .top-navigation .nav>li a:focus,
+        .top-navigation .nav>li a:hover {
             background: #fff;
             color: #1ab394
         }
 
-        .top-navigation .nav > li.active {
+        .top-navigation .nav>li.active {
             background: #fff;
             border: none
         }
 
-        .top-navigation .nav > li.active > a {
+        .top-navigation .nav>li.active>a {
             color: #1ab394
         }
 
@@ -551,7 +586,7 @@
             border: 1px solid #e7eaec
         }
 
-        .top-navigation .dropdown-menu > li > a {
+        .top-navigation .dropdown-menu>li>a {
             margin: 0;
             padding: 7px 20px
         }
@@ -570,11 +605,16 @@
             margin-right: 0
         }
 
-        .body-small.fixed-sidebar.mini-navbar .top-navigation #page-wrapper, .canvas-menu #page-wrapper, .mini-navbar .top-navigation #page-wrapper, .top-navigation.body-small.fixed-sidebar.mini-navbar #page-wrapper, .top-navigation.mini-navbar #page-wrapper {
+        .body-small.fixed-sidebar.mini-navbar .top-navigation #page-wrapper,
+        .canvas-menu #page-wrapper,
+        .mini-navbar .top-navigation #page-wrapper,
+        .top-navigation.body-small.fixed-sidebar.mini-navbar #page-wrapper,
+        .top-navigation.mini-navbar #page-wrapper {
             margin: 0
         }
 
-        .fixed-nav #wrapper.top-navigation, .top-navigation.fixed-nav #wrapper {
+        .fixed-nav #wrapper.top-navigation,
+        .top-navigation.fixed-nav #wrapper {
             margin-top: 50px
         }
 
@@ -586,7 +626,8 @@
             padding: 40px
         }
 
-        .body-small .top-navigation .wrapper.wrapper-content, .top-navigation.body-small .wrapper.wrapper-content {
+        .body-small .top-navigation .wrapper.wrapper-content,
+        .top-navigation.body-small .wrapper.wrapper-content {
             padding: 40px 0
         }
 
@@ -596,7 +637,8 @@
             font-size: 14px
         }
 
-        .top-navigation .navbar-nav .open .dropdown-menu .dropdown-header, .top-navigation .navbar-nav .open .dropdown-menu > li > a {
+        .top-navigation .navbar-nav .open .dropdown-menu .dropdown-header,
+        .top-navigation .navbar-nav .open .dropdown-menu>li>a {
             padding: 10px 15px 10px 20px
         }
 
@@ -607,7 +649,8 @@
             }
         }
 
-        .menu-visible-lg, .menu-visible-md {
+        .menu-visible-lg,
+        .menu-visible-md {
             display: none !important
         }
 
@@ -624,7 +667,9 @@
         }
 
         @media (max-width: 767px) {
-            .menu-visible-lg, .menu-visible-md {
+
+            .menu-visible-lg,
+            .menu-visible-md {
                 display: block !important
             }
         }
@@ -661,7 +706,11 @@
             color: #ed5565
         }
 
-        .btn-danger.btn-outline:hover, .btn-info.btn-outline:hover, .btn-primary.btn-outline:hover, .btn-success.btn-outline:hover, .btn-warning.btn-outline:hover {
+        .btn-danger.btn-outline:hover,
+        .btn-info.btn-outline:hover,
+        .btn-primary.btn-outline:hover,
+        .btn-success.btn-outline:hover,
+        .btn-warning.btn-outline:hover {
             color: #fff
         }
 
@@ -671,17 +720,37 @@
             color: #FFF
         }
 
-        .btn-primary.active, .btn-primary:active, .btn-primary:focus, .btn-primary:hover, .open .dropdown-toggle.btn-primary {
+        .btn-primary.active,
+        .btn-primary:active,
+        .btn-primary:focus,
+        .btn-primary:hover,
+        .open .dropdown-toggle.btn-primary {
             background-color: #18a689;
             border-color: #18a689;
             color: #FFF
         }
 
-        .btn-primary.active, .btn-primary:active, .open .dropdown-toggle.btn-primary {
+        .btn-primary.active,
+        .btn-primary:active,
+        .open .dropdown-toggle.btn-primary {
             background-image: none
         }
 
-        .btn-primary.active[disabled], .btn-primary.disabled, .btn-primary.disabled.active, .btn-primary.disabled:active, .btn-primary.disabled:focus, .btn-primary.disabled:hover, .btn-primary[disabled], .btn-primary[disabled]:active, .btn-primary[disabled]:focus, .btn-primary[disabled]:hover, fieldset[disabled] .btn-primary, fieldset[disabled] .btn-primary.active, fieldset[disabled] .btn-primary:active, fieldset[disabled] .btn-primary:focus, fieldset[disabled] .btn-primary:hover {
+        .btn-primary.active[disabled],
+        .btn-primary.disabled,
+        .btn-primary.disabled.active,
+        .btn-primary.disabled:active,
+        .btn-primary.disabled:focus,
+        .btn-primary.disabled:hover,
+        .btn-primary[disabled],
+        .btn-primary[disabled]:active,
+        .btn-primary[disabled]:focus,
+        .btn-primary[disabled]:hover,
+        fieldset[disabled] .btn-primary,
+        fieldset[disabled] .btn-primary.active,
+        fieldset[disabled] .btn-primary:active,
+        fieldset[disabled] .btn-primary:focus,
+        fieldset[disabled] .btn-primary:hover {
             background-color: #1dc5a3;
             border-color: #1dc5a3
         }
@@ -692,17 +761,37 @@
             color: #FFF
         }
 
-        .btn-success.active, .btn-success:active, .btn-success:focus, .btn-success:hover, .open .dropdown-toggle.btn-success {
+        .btn-success.active,
+        .btn-success:active,
+        .btn-success:focus,
+        .btn-success:hover,
+        .open .dropdown-toggle.btn-success {
             background-color: #1a7bb9;
             border-color: #1a7bb9;
             color: #FFF
         }
 
-        .btn-success.active, .btn-success:active, .open .dropdown-toggle.btn-success {
+        .btn-success.active,
+        .btn-success:active,
+        .open .dropdown-toggle.btn-success {
             background-image: none
         }
 
-        .btn-success.active[disabled], .btn-success.disabled, .btn-success.disabled.active, .btn-success.disabled:active, .btn-success.disabled:focus, .btn-success.disabled:hover, .btn-success[disabled], .btn-success[disabled]:active, .btn-success[disabled]:focus, .btn-success[disabled]:hover, fieldset[disabled] .btn-success, fieldset[disabled] .btn-success.active, fieldset[disabled] .btn-success:active, fieldset[disabled] .btn-success:focus, fieldset[disabled] .btn-success:hover {
+        .btn-success.active[disabled],
+        .btn-success.disabled,
+        .btn-success.disabled.active,
+        .btn-success.disabled:active,
+        .btn-success.disabled:focus,
+        .btn-success.disabled:hover,
+        .btn-success[disabled],
+        .btn-success[disabled]:active,
+        .btn-success[disabled]:focus,
+        .btn-success[disabled]:hover,
+        fieldset[disabled] .btn-success,
+        fieldset[disabled] .btn-success.active,
+        fieldset[disabled] .btn-success:active,
+        fieldset[disabled] .btn-success:focus,
+        fieldset[disabled] .btn-success:hover {
             background-color: #1f90d8;
             border-color: #1f90d8
         }
@@ -713,17 +802,37 @@
             color: #FFF
         }
 
-        .btn-info.active, .btn-info:active, .btn-info:focus, .btn-info:hover, .open .dropdown-toggle.btn-info {
+        .btn-info.active,
+        .btn-info:active,
+        .btn-info:focus,
+        .btn-info:hover,
+        .open .dropdown-toggle.btn-info {
             background-color: #21b9bb;
             border-color: #21b9bb;
             color: #FFF
         }
 
-        .btn-info.active, .btn-info:active, .open .dropdown-toggle.btn-info {
+        .btn-info.active,
+        .btn-info:active,
+        .open .dropdown-toggle.btn-info {
             background-image: none
         }
 
-        .btn-info.active[disabled], .btn-info.disabled, .btn-info.disabled.active, .btn-info.disabled:active, .btn-info.disabled:focus, .btn-info.disabled:hover, .btn-info[disabled], .btn-info[disabled]:active, .btn-info[disabled]:focus, .btn-info[disabled]:hover, fieldset[disabled] .btn-info, fieldset[disabled] .btn-info.active, fieldset[disabled] .btn-info:active, fieldset[disabled] .btn-info:focus, fieldset[disabled] .btn-info:hover {
+        .btn-info.active[disabled],
+        .btn-info.disabled,
+        .btn-info.disabled.active,
+        .btn-info.disabled:active,
+        .btn-info.disabled:focus,
+        .btn-info.disabled:hover,
+        .btn-info[disabled],
+        .btn-info[disabled]:active,
+        .btn-info[disabled]:focus,
+        .btn-info[disabled]:hover,
+        fieldset[disabled] .btn-info,
+        fieldset[disabled] .btn-info.active,
+        fieldset[disabled] .btn-info:active,
+        fieldset[disabled] .btn-info:focus,
+        fieldset[disabled] .btn-info:hover {
             background-color: #26d7d9;
             border-color: #26d7d9
         }
@@ -734,17 +843,37 @@
             color: #FFF
         }
 
-        .btn-default.active, .btn-default:active, .btn-default:focus, .btn-default:hover, .open .dropdown-toggle.btn-default {
+        .btn-default.active,
+        .btn-default:active,
+        .btn-default:focus,
+        .btn-default:hover,
+        .open .dropdown-toggle.btn-default {
             background-color: #bababa;
             border-color: #bababa;
             color: #FFF
         }
 
-        .btn-default.active, .btn-default:active, .open .dropdown-toggle.btn-default {
+        .btn-default.active,
+        .btn-default:active,
+        .open .dropdown-toggle.btn-default {
             background-image: none
         }
 
-        .btn-default.active[disabled], .btn-default.disabled, .btn-default.disabled.active, .btn-default.disabled:active, .btn-default.disabled:focus, .btn-default.disabled:hover, .btn-default[disabled], .btn-default[disabled]:active, .btn-default[disabled]:focus, .btn-default[disabled]:hover, fieldset[disabled] .btn-default, fieldset[disabled] .btn-default.active, fieldset[disabled] .btn-default:active, fieldset[disabled] .btn-default:focus, fieldset[disabled] .btn-default:hover {
+        .btn-default.active[disabled],
+        .btn-default.disabled,
+        .btn-default.disabled.active,
+        .btn-default.disabled:active,
+        .btn-default.disabled:focus,
+        .btn-default.disabled:hover,
+        .btn-default[disabled],
+        .btn-default[disabled]:active,
+        .btn-default[disabled]:focus,
+        .btn-default[disabled]:hover,
+        fieldset[disabled] .btn-default,
+        fieldset[disabled] .btn-default.active,
+        fieldset[disabled] .btn-default:active,
+        fieldset[disabled] .btn-default:focus,
+        fieldset[disabled] .btn-default:hover {
             background-color: #ccc;
             border-color: #ccc
         }
@@ -755,17 +884,37 @@
             color: #FFF
         }
 
-        .btn-warning.active, .btn-warning:active, .btn-warning:focus, .btn-warning:hover, .open .dropdown-toggle.btn-warning {
+        .btn-warning.active,
+        .btn-warning:active,
+        .btn-warning:focus,
+        .btn-warning:hover,
+        .open .dropdown-toggle.btn-warning {
             background-color: #f7a54a;
             border-color: #f7a54a;
             color: #FFF
         }
 
-        .btn-warning.active, .btn-warning:active, .open .dropdown-toggle.btn-warning {
+        .btn-warning.active,
+        .btn-warning:active,
+        .open .dropdown-toggle.btn-warning {
             background-image: none
         }
 
-        .btn-warning.active[disabled], .btn-warning.disabled, .btn-warning.disabled.active, .btn-warning.disabled:active, .btn-warning.disabled:focus, .btn-warning.disabled:hover, .btn-warning[disabled], .btn-warning[disabled]:active, .btn-warning[disabled]:focus, .btn-warning[disabled]:hover, fieldset[disabled] .btn-warning, fieldset[disabled] .btn-warning.active, fieldset[disabled] .btn-warning:active, fieldset[disabled] .btn-warning:focus, fieldset[disabled] .btn-warning:hover {
+        .btn-warning.active[disabled],
+        .btn-warning.disabled,
+        .btn-warning.disabled.active,
+        .btn-warning.disabled:active,
+        .btn-warning.disabled:focus,
+        .btn-warning.disabled:hover,
+        .btn-warning[disabled],
+        .btn-warning[disabled]:active,
+        .btn-warning[disabled]:focus,
+        .btn-warning[disabled]:hover,
+        fieldset[disabled] .btn-warning,
+        fieldset[disabled] .btn-warning.active,
+        fieldset[disabled] .btn-warning:active,
+        fieldset[disabled] .btn-warning:focus,
+        fieldset[disabled] .btn-warning:hover {
             background-color: #f9b66d;
             border-color: #f9b66d
         }
@@ -776,17 +925,37 @@
             color: #FFF
         }
 
-        .btn-danger.active, .btn-danger:active, .btn-danger:focus, .btn-danger:hover, .open .dropdown-toggle.btn-danger {
+        .btn-danger.active,
+        .btn-danger:active,
+        .btn-danger:focus,
+        .btn-danger:hover,
+        .open .dropdown-toggle.btn-danger {
             background-color: #ec4758;
             border-color: #ec4758;
             color: #FFF
         }
 
-        .btn-danger.active, .btn-danger:active, .open .dropdown-toggle.btn-danger {
+        .btn-danger.active,
+        .btn-danger:active,
+        .open .dropdown-toggle.btn-danger {
             background-image: none
         }
 
-        .btn-danger.active[disabled], .btn-danger.disabled, .btn-danger.disabled.active, .btn-danger.disabled:active, .btn-danger.disabled:focus, .btn-danger.disabled:hover, .btn-danger[disabled], .btn-danger[disabled]:active, .btn-danger[disabled]:focus, .btn-danger[disabled]:hover, fieldset[disabled] .btn-danger, fieldset[disabled] .btn-danger.active, fieldset[disabled] .btn-danger:active, fieldset[disabled] .btn-danger:focus, fieldset[disabled] .btn-danger:hover {
+        .btn-danger.active[disabled],
+        .btn-danger.disabled,
+        .btn-danger.disabled.active,
+        .btn-danger.disabled:active,
+        .btn-danger.disabled:focus,
+        .btn-danger.disabled:hover,
+        .btn-danger[disabled],
+        .btn-danger[disabled]:active,
+        .btn-danger[disabled]:focus,
+        .btn-danger[disabled]:hover,
+        fieldset[disabled] .btn-danger,
+        fieldset[disabled] .btn-danger.active,
+        fieldset[disabled] .btn-danger:active,
+        fieldset[disabled] .btn-danger:focus,
+        fieldset[disabled] .btn-danger:hover {
             background-color: #ef6776;
             border-color: #ef6776
         }
@@ -795,16 +964,36 @@
             color: inherit
         }
 
-        .btn-link.active, .btn-link:active, .btn-link:focus, .btn-link:hover, .open .dropdown-toggle.btn-link {
+        .btn-link.active,
+        .btn-link:active,
+        .btn-link:focus,
+        .btn-link:hover,
+        .open .dropdown-toggle.btn-link {
             color: #1ab394;
             text-decoration: none
         }
 
-        .btn-link.active, .btn-link:active, .open .dropdown-toggle.btn-link {
+        .btn-link.active,
+        .btn-link:active,
+        .open .dropdown-toggle.btn-link {
             background-image: none
         }
 
-        .btn-link.active[disabled], .btn-link.disabled, .btn-link.disabled.active, .btn-link.disabled:active, .btn-link.disabled:focus, .btn-link.disabled:hover, .btn-link[disabled], .btn-link[disabled]:active, .btn-link[disabled]:focus, .btn-link[disabled]:hover, fieldset[disabled] .btn-link, fieldset[disabled] .btn-link.active, fieldset[disabled] .btn-link:active, fieldset[disabled] .btn-link:focus, fieldset[disabled] .btn-link:hover {
+        .btn-link.active[disabled],
+        .btn-link.disabled,
+        .btn-link.disabled.active,
+        .btn-link.disabled:active,
+        .btn-link.disabled:focus,
+        .btn-link.disabled:hover,
+        .btn-link[disabled],
+        .btn-link[disabled]:active,
+        .btn-link[disabled]:focus,
+        .btn-link[disabled]:hover,
+        fieldset[disabled] .btn-link,
+        fieldset[disabled] .btn-link.active,
+        fieldset[disabled] .btn-link:active,
+        fieldset[disabled] .btn-link:focus,
+        fieldset[disabled] .btn-link:hover {
             color: #cacaca
         }
 
@@ -814,24 +1003,58 @@
             border: 1px solid #e7eaec
         }
 
-        .btn-white.active, .btn-white:active, .btn-white:focus, .btn-white:hover, .open .dropdown-toggle.btn-white {
+        .btn-white.active,
+        .btn-white:active,
+        .btn-white:focus,
+        .btn-white:hover,
+        .open .dropdown-toggle.btn-white {
             color: inherit;
             border: 1px solid #d2d2d2
         }
 
-        .btn-white.active, .btn-white:active {
+        .btn-white.active,
+        .btn-white:active {
             box-shadow: 0 2px 5px rgba(0, 0, 0, .15) inset
         }
 
-        .btn-white.active, .btn-white:active, .open .dropdown-toggle.btn-white {
+        .btn-white.active,
+        .btn-white:active,
+        .open .dropdown-toggle.btn-white {
             background-image: none
         }
 
-        .btn-white.active[disabled], .btn-white.disabled, .btn-white.disabled.active, .btn-white.disabled:active, .btn-white.disabled:focus, .btn-white.disabled:hover, .btn-white[disabled], .btn-white[disabled]:active, .btn-white[disabled]:focus, .btn-white[disabled]:hover, fieldset[disabled] .btn-white, fieldset[disabled] .btn-white.active, fieldset[disabled] .btn-white:active, fieldset[disabled] .btn-white:focus, fieldset[disabled] .btn-white:hover {
+        .btn-white.active[disabled],
+        .btn-white.disabled,
+        .btn-white.disabled.active,
+        .btn-white.disabled:active,
+        .btn-white.disabled:focus,
+        .btn-white.disabled:hover,
+        .btn-white[disabled],
+        .btn-white[disabled]:active,
+        .btn-white[disabled]:focus,
+        .btn-white[disabled]:hover,
+        fieldset[disabled] .btn-white,
+        fieldset[disabled] .btn-white.active,
+        fieldset[disabled] .btn-white:active,
+        fieldset[disabled] .btn-white:focus,
+        fieldset[disabled] .btn-white:hover {
             color: #cacaca
         }
 
-        .form-control, .form-control:focus, .has-error .form-control:focus, .has-success .form-control:focus, .has-warning .form-control:focus, .navbar-collapse, .navbar-form, .navbar-form-custom .form-control:focus, .navbar-form-custom .form-control:hover, .open .btn.dropdown-toggle, .panel, .popover, .progress, .progress-bar {
+        .form-control,
+        .form-control:focus,
+        .has-error .form-control:focus,
+        .has-success .form-control:focus,
+        .has-warning .form-control:focus,
+        .navbar-collapse,
+        .navbar-form,
+        .navbar-form-custom .form-control:focus,
+        .navbar-form-custom .form-control:hover,
+        .open .btn.dropdown-toggle,
+        .panel,
+        .popover,
+        .progress,
+        .progress-bar {
             box-shadow: none
         }
 
@@ -953,47 +1176,56 @@
             text-shadow: none
         }
 
-        .badge-primary, .label-primary {
+        .badge-primary,
+        .label-primary {
             background-color: #1ab394;
             color: #FFF
         }
 
-        .badge-success, .label-success {
+        .badge-success,
+        .label-success {
             background-color: #1c84c6;
             color: #FFF
         }
 
-        .badge-warning, .label-warning {
+        .badge-warning,
+        .label-warning {
             background-color: #f8ac59;
             color: #FFF
         }
 
-        .badge-warning-light, .label-warning-light {
+        .badge-warning-light,
+        .label-warning-light {
             background-color: #f8ac59;
             color: #fff
         }
 
-        .badge-danger, .label-danger {
+        .badge-danger,
+        .label-danger {
             background-color: #ed5565;
             color: #FFF
         }
 
-        .badge-info, .label-info {
+        .badge-info,
+        .label-info {
             background-color: #23c6c8;
             color: #FFF
         }
 
-        .badge-inverse, .label-inverse {
+        .badge-inverse,
+        .label-inverse {
             background-color: #262626;
             color: #FFF
         }
 
-        .badge-white, .label-white {
+        .badge-white,
+        .label-white {
             background-color: #FFF;
             color: #5E5E5E
         }
 
-        .badge-disable, .label-white {
+        .badge-disable,
+        .label-white {
             background-color: #2A2E36;
             color: #8B91A0
         }
@@ -1028,7 +1260,12 @@
             position: relative
         }
 
-        .pagination > .active > a, .pagination > .active > a:focus, .pagination > .active > a:hover, .pagination > .active > span, .pagination > .active > span:focus, .pagination > .active > span:hover {
+        .pagination>.active>a,
+        .pagination>.active>a:focus,
+        .pagination>.active>a:hover,
+        .pagination>.active>span,
+        .pagination>.active>span:focus,
+        .pagination>.active>span:hover {
             background-color: #f4f4f4;
             border-color: #DDD;
             color: inherit;
@@ -1036,7 +1273,8 @@
             z-index: 2
         }
 
-        .pagination > li > a, .pagination > li > span {
+        .pagination>li>a,
+        .pagination>li>span {
             background-color: #FFF;
             border: 1px solid #DDD;
             color: inherit;
@@ -1135,7 +1373,8 @@
             color: inherit
         }
 
-        .fc-content .fc-widget-content, .fc-content .fc-widget-header {
+        .fc-content .fc-widget-content,
+        .fc-content .fc-widget-header {
             border-color: #e7eaec;
             font-weight: 400
         }
@@ -1155,22 +1394,27 @@
             margin-bottom: 5px
         }
 
-        .fc-ltr .fc-event-hori.fc-event-end, .fc-rtl .fc-event-hori.fc-event-start {
+        .fc-ltr .fc-event-hori.fc-event-end,
+        .fc-rtl .fc-event-hori.fc-event-start {
             border-radius: 2px
         }
 
-        .fc-agenda .fc-event-time, .fc-event, .fc-event a {
+        .fc-agenda .fc-event-time,
+        .fc-event,
+        .fc-event a {
             padding: 4px 6px;
             background-color: #1ab394;
             border-color: #1ab394
         }
 
-        .fc-event-time, .fc-event-title {
+        .fc-event-time,
+        .fc-event-title {
             color: #717171;
             padding: 0 1px
         }
 
-        .ui-calendar .fc-event-time, .ui-calendar .fc-event-title {
+        .ui-calendar .fc-event-time,
+        .ui-calendar .fc-event-title {
             color: #fff
         }
 
@@ -1186,11 +1430,13 @@
             padding-bottom: 15px
         }
 
-        .chat-element, .chat-element .media {
+        .chat-element,
+        .chat-element .media {
             margin-top: 15px
         }
 
-        .chat-element, .media-body {
+        .chat-element,
+        .media-body {
             overflow: hidden
         }
 
@@ -1199,11 +1445,12 @@
             width: auto
         }
 
-        .chat-element > .pull-left {
+        .chat-element>.pull-left {
             margin-right: 10px
         }
 
-        .chat-element img.img-circle, .dropdown-messages-box img.img-circle {
+        .chat-element img.img-circle,
+        .dropdown-messages-box img.img-circle {
             width: 38px;
             height: 38px
         }
@@ -1226,7 +1473,7 @@
             margin: 10px 0
         }
 
-        .right.chat-element > .pull-right {
+        .right.chat-element>.pull-right {
             margin-left: 10px
         }
 
@@ -1263,7 +1510,8 @@
             color: #777
         }
 
-        .chat .glyphicon, .panel .slidedown .glyphicon {
+        .chat .glyphicon,
+        .panel .slidedown .glyphicon {
             margin-right: 5px
         }
 
@@ -1272,7 +1520,9 @@
             overflow-y: scroll
         }
 
-        a.list-group-item.active, a.list-group-item.active:focus, a.list-group-item.active:hover {
+        a.list-group-item.active,
+        a.list-group-item.active:focus,
+        a.list-group-item.active:hover {
             background-color: #1ab394;
             border-color: #1ab394;
             color: #FFF;
@@ -1336,7 +1586,8 @@
             color: inherit
         }
 
-        .elements-list .list-group-item.active, .elements-list .list-group-item:hover {
+        .elements-list .list-group-item.active,
+        .elements-list .list-group-item:hover {
             background: #f3f3f4;
             color: inherit;
             border-color: #e7eaec;
@@ -1429,7 +1680,11 @@
             position: relative
         }
 
-        table.dataTable thead .sorting, table.dataTable thead .sorting_asc:after, table.dataTable thead .sorting_asc_disabled, table.dataTable thead .sorting_desc, table.dataTable thead .sorting_desc_disabled {
+        table.dataTable thead .sorting,
+        table.dataTable thead .sorting_asc:after,
+        table.dataTable thead .sorting_asc_disabled,
+        table.dataTable thead .sorting_desc,
+        table.dataTable thead .sorting_desc_disabled {
             background: 0 0
         }
 
@@ -1576,7 +1831,8 @@
             font-size: 30px
         }
 
-        .widget h2, .widget h3 {
+        .widget h2,
+        .widget h3 {
             margin-top: 5px;
             margin-bottom: 0
         }
@@ -1601,7 +1857,8 @@
             vertical-align: middle
         }
 
-        .vertical-align h2, .vertical-align h3 {
+        .vertical-align h2,
+        .vertical-align h3 {
             margin: 0
         }
 
@@ -1616,7 +1873,7 @@
             font-size: 12px
         }
 
-        .todo-list.small-list > li {
+        .todo-list.small-list>li {
             background: #f3f3f4;
             border-left: none;
             border-right: none;
@@ -1626,14 +1883,15 @@
             padding: 6px 6px 6px 12px
         }
 
-        .todo-list.small-list .btn-group-xs > .btn, .todo-list.small-list .btn-xs {
+        .todo-list.small-list .btn-group-xs>.btn,
+        .todo-list.small-list .btn-xs {
             border-radius: 5px;
             font-size: 10px;
             line-height: 1.5;
             padding: 1px 2px 1px 5px
         }
 
-        .todo-list > li {
+        .todo-list>li {
             background: #f3f3f4;
             border-left: 6px solid #e7eaec;
             border-right: 6px solid #e7eaec;
@@ -1650,7 +1908,7 @@
             margin: 0 5px
         }
 
-        .todo-list > li .label {
+        .todo-list>li .label {
             font-size: 9px;
             margin-left: 10px
         }
@@ -1692,7 +1950,8 @@
             padding-left: 0
         }
 
-        .form-control, .single-line {
+        .form-control,
+        .single-line {
             background-color: #FFF;
             background-image: none;
             border: 1px solid #e5e6e7;
@@ -1706,7 +1965,8 @@
             font-size: 14px
         }
 
-        .form-control:focus, .single-line:focus {
+        .form-control:focus,
+        .single-line:focus {
             border-color: #1ab394 !important
         }
 
@@ -1786,16 +2046,20 @@
             position: relative
         }
 
-        .tabs-container .nav-tabs > li.active > a, .tabs-container .nav-tabs > li.active > a:focus, .tabs-container .nav-tabs > li.active > a:hover {
+        .tabs-container .nav-tabs>li.active>a,
+        .tabs-container .nav-tabs>li.active>a:focus,
+        .tabs-container .nav-tabs>li.active>a:hover {
             background-color: #fff
         }
 
-        .tabs-container .nav-tabs > li {
+        .tabs-container .nav-tabs>li {
             float: left;
             margin-bottom: -1px
         }
 
-        .tabs-container .nav-tabs > li.active > a, .tabs-container .nav-tabs > li.active > a:focus, .tabs-container .nav-tabs > li.active > a:hover {
+        .tabs-container .nav-tabs>li.active>a,
+        .tabs-container .nav-tabs>li.active>a:focus,
+        .tabs-container .nav-tabs>li.active>a:hover {
             border: 1px solid #e7eaec;
             border-bottom-color: transparent
         }
@@ -1808,16 +2072,19 @@
             border-top: none
         }
 
-        .tabs-container .tabs-left .tab-pane .panel-body, .tabs-container .tabs-right .tab-pane .panel-body {
+        .tabs-container .tabs-left .tab-pane .panel-body,
+        .tabs-container .tabs-right .tab-pane .panel-body {
             border-top: 1px solid #e7eaec
         }
 
-        .tabs-container .nav-tabs > li a:hover {
+        .tabs-container .nav-tabs>li a:hover {
             background: 0 0;
             border-color: transparent
         }
 
-        .tabs-container .tabs-below > .nav-tabs, .tabs-container .tabs-left > .nav-tabs, .tabs-container .tabs-right > .nav-tabs {
+        .tabs-container .tabs-below>.nav-tabs,
+        .tabs-container .tabs-left>.nav-tabs,
+        .tabs-container .tabs-right>.nav-tabs {
             border-bottom: 0
         }
 
@@ -1825,7 +2092,8 @@
             position: static
         }
 
-        .tabs-container .tabs-left > .nav-tabs, .tabs-container .tabs-right > .nav-tabs {
+        .tabs-container .tabs-left>.nav-tabs,
+        .tabs-container .tabs-right>.nav-tabs {
             width: 20%
         }
 
@@ -1839,68 +2107,77 @@
             margin-right: 20%
         }
 
-        .tabs-container .pill-content > .pill-pane, .tabs-container .tab-content > .tab-pane {
+        .tabs-container .pill-content>.pill-pane,
+        .tabs-container .tab-content>.tab-pane {
             display: none
         }
 
-        .tabs-container .pill-content > .active, .tabs-container .tab-content > .active {
+        .tabs-container .pill-content>.active,
+        .tabs-container .tab-content>.active {
             display: block
         }
 
-        .tabs-container .tabs-below > .nav-tabs {
+        .tabs-container .tabs-below>.nav-tabs {
             border-top: 1px solid #e7eaec
         }
 
-        .tabs-container .tabs-below > .nav-tabs > li {
+        .tabs-container .tabs-below>.nav-tabs>li {
             margin-top: -1px;
             margin-bottom: 0
         }
 
-        .tabs-container .tabs-below > .nav-tabs > li > a {
+        .tabs-container .tabs-below>.nav-tabs>li>a {
             border-radius: 0 0 4px 4px
         }
 
-        .tabs-container .tabs-below > .nav-tabs > li > a:focus, .tabs-container .tabs-below > .nav-tabs > li > a:hover {
+        .tabs-container .tabs-below>.nav-tabs>li>a:focus,
+        .tabs-container .tabs-below>.nav-tabs>li>a:hover {
             border-top-color: #e7eaec;
             border-bottom-color: transparent
         }
 
-        .tabs-container .tabs-left > .nav-tabs > li, .tabs-container .tabs-right > .nav-tabs > li {
+        .tabs-container .tabs-left>.nav-tabs>li,
+        .tabs-container .tabs-right>.nav-tabs>li {
             float: none
         }
 
-        .tabs-container .tabs-left > .nav-tabs > li > a, .tabs-container .tabs-right > .nav-tabs > li > a {
+        .tabs-container .tabs-left>.nav-tabs>li>a,
+        .tabs-container .tabs-right>.nav-tabs>li>a {
             min-width: 74px;
             margin-right: 0;
             margin-bottom: 3px
         }
 
-        .tabs-container .tabs-left > .nav-tabs {
+        .tabs-container .tabs-left>.nav-tabs {
             float: left;
             margin-right: 19px
         }
 
-        .tabs-container .tabs-left > .nav-tabs > li > a {
+        .tabs-container .tabs-left>.nav-tabs>li>a {
             margin-right: -1px;
             border-radius: 4px 0 0 4px
         }
 
-        .tabs-container .tabs-left > .nav-tabs .active > a, .tabs-container .tabs-left > .nav-tabs .active > a:focus, .tabs-container .tabs-left > .nav-tabs .active > a:hover {
+        .tabs-container .tabs-left>.nav-tabs .active>a,
+        .tabs-container .tabs-left>.nav-tabs .active>a:focus,
+        .tabs-container .tabs-left>.nav-tabs .active>a:hover {
             border-color: #e7eaec transparent #e7eaec #e7eaec;
             *border-right-color: #fff
         }
 
-        .tabs-container .tabs-right > .nav-tabs {
+        .tabs-container .tabs-right>.nav-tabs {
             float: right;
             margin-left: 19px
         }
 
-        .tabs-container .tabs-right > .nav-tabs > li > a {
+        .tabs-container .tabs-right>.nav-tabs>li>a {
             margin-left: -1px;
             border-radius: 0 4px 4px 0
         }
 
-        .tabs-container .tabs-right > .nav-tabs .active > a, .tabs-container .tabs-right > .nav-tabs .active > a:focus, .tabs-container .tabs-right > .nav-tabs .active > a:hover {
+        .tabs-container .tabs-right>.nav-tabs .active>a,
+        .tabs-container .tabs-right>.nav-tabs .active>a:focus,
+        .tabs-container .tabs-right>.nav-tabs .active>a:hover {
             border-color: #e7eaec #e7eaec #e7eaec transparent;
             *border-left-color: #fff;
             z-index: 1
@@ -1934,7 +2211,8 @@
             transition: margin .3s ease-in 0s
         }
 
-        .onoffswitch-inner:after, .onoffswitch-inner:before {
+        .onoffswitch-inner:after,
+        .onoffswitch-inner:before {
             display: block;
             float: left;
             width: 50%;
@@ -1977,11 +2255,11 @@
             transition: all .3s ease-in 0s
         }
 
-        .onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+        .onoffswitch-checkbox:checked+.onoffswitch-label .onoffswitch-inner {
             margin-left: 0
         }
 
-        .onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
+        .onoffswitch-checkbox:checked+.onoffswitch-label .onoffswitch-switch {
             right: 0
         }
 
@@ -2011,7 +2289,9 @@
             display: none
         }
 
-        .dd-empty, .dd-item, .dd-placeholder {
+        .dd-empty,
+        .dd-item,
+        .dd-placeholder {
             display: block;
             position: relative;
             margin: 0;
@@ -2044,7 +2324,7 @@
             font-weight: 700
         }
 
-        .dd-item > button {
+        .dd-item>button {
             display: block;
             position: relative;
             cursor: pointer;
@@ -2064,7 +2344,7 @@
             font-weight: 700
         }
 
-        .dd-item > button:before {
+        .dd-item>button:before {
             content: '+';
             display: block;
             position: absolute;
@@ -2073,26 +2353,27 @@
             text-indent: 0
         }
 
-        .dd-item > button[data-action=collapse]:before {
+        .dd-item>button[data-action=collapse]:before {
             content: '-'
         }
 
-        #nestable2 .dd-item > button {
+        #nestable2 .dd-item>button {
             font-family: FontAwesome;
             height: 34px;
             width: 33px;
             color: #c1c1c1
         }
 
-        #nestable2 .dd-item > button:before {
+        #nestable2 .dd-item>button:before {
             content: "\f067"
         }
 
-        #nestable2 .dd-item > button[data-action=collapse]:before {
+        #nestable2 .dd-item>button[data-action=collapse]:before {
             content: "\f068"
         }
 
-        .dd-empty, .dd-placeholder {
+        .dd-empty,
+        .dd-placeholder {
             margin: 5px 0;
             padding: 0;
             min-height: 30px;
@@ -2118,7 +2399,7 @@
             pointer-events: none
         }
 
-        .dd-dragel > .dd-item .dd-handle {
+        .dd-dragel>.dd-item .dd-handle {
             margin-top: 0
         }
 
@@ -2141,7 +2422,8 @@
             margin: 10px 0 20px
         }
 
-        #nestable-output, #nestable2-output {
+        #nestable-output,
+        #nestable2-output {
             width: 100%;
             line-height: 1.333333em;
             font-family: lucida grande, lucida sans unicode, helvetica, arial, sans-serif
@@ -2158,7 +2440,8 @@
             margin-right: 10px
         }
 
-        #nestable-output, #nestable2-output {
+        #nestable-output,
+        #nestable2-output {
             font-size: 12px;
             padding: 25px;
             box-sizing: border-box;
@@ -2234,11 +2517,11 @@
             border-right: none
         }
 
-        #toast-container > .toast {
+        #toast-container>.toast {
             background-image: none !important
         }
 
-        #toast-container > .toast:before {
+        #toast-container>.toast:before {
             position: fixed;
             font-family: FontAwesome;
             font-size: 24px;
@@ -2249,14 +2532,14 @@
             margin: auto .5em auto -1.5em
         }
 
-        #toast-container > div {
+        #toast-container>div {
             box-shadow: 0 0 3px #999;
             opacity: .9;
             -ms-filter: alpha(opacity=90);
             filter: alpha(opacity=90)
         }
 
-        #toast-container > :hover {
+        #toast-container> :hover {
             box-shadow: 0 0 4px #999;
             opacity: 1;
             -ms-filter: alpha(opacity=100);
@@ -2264,7 +2547,8 @@
             cursor: pointer
         }
 
-        .toast, .toast-success {
+        .toast,
+        .toast-success {
             background-color: #1ab394
         }
 
@@ -2288,7 +2572,8 @@
             margin-bottom: 20px
         }
 
-        .img-container, .img-preview {
+        .img-container,
+        .img-preview {
             overflow: hidden;
             text-align: center;
             width: 100%
@@ -2330,7 +2615,7 @@
             border: 1px solid #f1f1f1
         }
 
-        .media-body > .media {
+        .media-body>.media {
             background: #f9f9f9;
             border-radius: 3px;
             border: 1px solid #f1f1f1
@@ -2345,12 +2630,12 @@
             border-radius: 3px
         }
 
-        .media-body > .media .forum-avatar {
+        .media-body>.media .forum-avatar {
             width: 70px;
             margin-right: 10px
         }
 
-        .media-body > .media .forum-avatar .img-circle {
+        .media-body>.media .forum-avatar .img-circle {
             height: 38px;
             width: 38px
         }
@@ -2371,7 +2656,8 @@
             font-weight: 400
         }
 
-        .forum-container, .forum-post-container {
+        .forum-container,
+        .forum-post-container {
             padding: 30px !important
         }
 
@@ -2420,7 +2706,8 @@
             color: #9b9b9b
         }
 
-        .forum-item.active .fa, .forum-item.active a.forum-item-title {
+        .forum-item.active .fa,
+        .forum-item.active a.forum-item-title {
             color: #1ab394
         }
 
@@ -2480,11 +2767,13 @@
             border-color: transparent transparent transparent #f5f5f5
         }
 
-        .dark-timeline .vertical-timeline-block:nth-child(2n) .vertical-timeline-content:before, .dark-timeline.center-orientation .vertical-timeline-block:nth-child(2n) .vertical-timeline-content:before {
+        .dark-timeline .vertical-timeline-block:nth-child(2n) .vertical-timeline-content:before,
+        .dark-timeline.center-orientation .vertical-timeline-block:nth-child(2n) .vertical-timeline-content:before {
             border-color: transparent #f5f5f5 transparent transparent
         }
 
-        .dark-timeline .vertical-timeline-content, .dark-timeline.center-orientation .vertical-timeline-content {
+        .dark-timeline .vertical-timeline-content,
+        .dark-timeline.center-orientation .vertical-timeline-content {
             background: #f5f5f5
         }
 
@@ -2704,7 +2993,9 @@
             height: 32px
         }
 
-        .media-body, .sidebard-panel .feed-element, .sidebard-panel p {
+        .media-body,
+        .sidebard-panel .feed-element,
+        .sidebard-panel p {
             font-size: 12px
         }
 
@@ -2723,7 +3014,8 @@
             border: 0
         }
 
-        .sidebar-content .wrapper, .wrapper.sidebar-content {
+        .sidebar-content .wrapper,
+        .wrapper.sidebar-content {
             padding-right: 240px !important
         }
 
@@ -2787,7 +3079,8 @@
             font-weight: 700
         }
 
-        .sidebar-container .nav-tabs > li.active > a:focus, .sidebar-container .nav-tabs > li.active > a:hover {
+        .sidebar-container .nav-tabs>li.active>a:focus,
+        .sidebar-container .nav-tabs>li.active>a:hover {
             border: none
         }
 
@@ -2832,11 +3125,11 @@
             margin-bottom: 5px
         }
 
-        .sidebar-container .sidebar-message > a > .pull-left {
+        .sidebar-container .sidebar-message>a>.pull-left {
             margin-right: 10px
         }
 
-        .sidebar-container .sidebar-message > a {
+        .sidebar-container .sidebar-message>a {
             text-decoration: none;
             color: inherit
         }
@@ -2863,7 +3156,10 @@
             overflow-x: hidden
         }
 
-        body, body.full-height-layout #page-wrapper, body.full-height-layout #wrapper, html {
+        body,
+        body.full-height-layout #page-wrapper,
+        body.full-height-layout #wrapper,
+        html {
             height: 100%;
         }
 
@@ -2881,7 +3177,8 @@
             margin: 0 auto
         }
 
-        .boxed-layout #wrapper.top-navigation, .top-navigation.boxed-layout #wrapper {
+        .boxed-layout #wrapper.top-navigation,
+        .top-navigation.boxed-layout #wrapper {
             max-width: 1300px !important
         }
 
@@ -2898,7 +3195,8 @@
             cursor: pointer
         }
 
-        a:focus, a:hover {
+        a:focus,
+        a:hover {
             text-decoration: none
         }
 
@@ -2943,7 +3241,7 @@
             height: auto !important
         }
 
-        .gallery > .row > div {
+        .gallery>.row>div {
             margin-bottom: 15px
         }
 
@@ -3028,11 +3326,21 @@
             padding-top: 30px
         }
 
-        .ibox-content h1, .ibox-content h2, .ibox-content h3, .ibox-content h4, .ibox-content h5, .ibox-title h1, .ibox-title h2, .ibox-title h3, .ibox-title h4, .ibox-title h5 {
+        .ibox-content h1,
+        .ibox-content h2,
+        .ibox-content h3,
+        .ibox-content h4,
+        .ibox-content h5,
+        .ibox-title h1,
+        .ibox-title h2,
+        .ibox-title h3,
+        .ibox-title h4,
+        .ibox-title h5 {
             margin-top: 5px
         }
 
-        ol.unstyled, ul.unstyled {
+        ol.unstyled,
+        ul.unstyled {
             list-style: none outside none;
             margin-left: 0
         }
@@ -3074,11 +3382,13 @@
             margin-left: 220px
         }
 
-        body.body-small.mini-navbar .footer.fixed, body.mini-navbar .footer.fixed {
+        body.body-small.mini-navbar .footer.fixed,
+        body.mini-navbar .footer.fixed {
             margin: 0 0 0 70px
         }
 
-        body.canvas-menu .footer.fixed, body.mini-navbar.canvas-menu .footer.fixed {
+        body.canvas-menu .footer.fixed,
+        body.mini-navbar.canvas-menu .footer.fixed {
             margin: 0 !important
         }
 
@@ -3095,7 +3405,8 @@
             padding: 0 20px 20px
         }
 
-        .panel-heading h1, .panel-heading h2 {
+        .panel-heading h1,
+        .panel-heading h2 {
             margin-bottom: 5px
         }
 
@@ -3106,7 +3417,8 @@
             line-height: 40px
         }
 
-        .content-tabs .roll-nav, .page-tabs-list {
+        .content-tabs .roll-nav,
+        .page-tabs-list {
             position: absolute;
             width: 40px;
             height: 40px;
@@ -3160,7 +3472,8 @@
             color: #c00
         }
 
-        .content-tabs .roll-nav:hover, .page-tabs a:hover {
+        .content-tabs .roll-nav:hover,
+        .page-tabs a:hover {
             color: #777;
             background: #f2f2f2;
             cursor: pointer
@@ -3205,19 +3518,30 @@
             border: 1px solid #EBEBEB
         }
 
-        .table-bordered > thead > tr > td, .table-bordered > thead > tr > th {
+        .table-bordered>thead>tr>td,
+        .table-bordered>thead>tr>th {
             background-color: #F5F5F6
         }
 
-        .table-bordered > tbody > tr > td, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > td, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > thead > tr > th {
+        .table-bordered>tbody>tr>td,
+        .table-bordered>tbody>tr>th,
+        .table-bordered>tfoot>tr>td,
+        .table-bordered>tfoot>tr>th,
+        .table-bordered>thead>tr>td,
+        .table-bordered>thead>tr>th {
             border: 1px solid #e7e7e7
         }
 
-        .table > thead > tr > th {
+        .table>thead>tr>th {
             border-bottom: 1px solid #DDD
         }
 
-        .table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th {
+        .table>tbody>tr>td,
+        .table>tbody>tr>th,
+        .table>tfoot>tr>td,
+        .table>tfoot>tr>th,
+        .table>thead>tr>td,
+        .table>thead>tr>th {
             border-top: 1px solid #e7eaec;
             line-height: 1.42857;
             padding: 8px;
@@ -3233,7 +3557,9 @@
             padding-bottom: 0
         }
 
-        .nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
+        .nav-tabs>li.active>a,
+        .nav-tabs>li.active>a:focus,
+        .nav-tabs>li.active>a:hover {
             -moz-border-bottom-colors: none;
             -moz-border-left-colors: none;
             -moz-border-right-colors: none;
@@ -3255,13 +3581,14 @@
             border: none
         }
 
-        .nav-tabs > li > a {
+        .nav-tabs>li>a {
             color: #A7B1C2;
             font-weight: 600;
             padding: 10px 20px 10px 25px
         }
 
-        .nav-tabs > li > a:focus, .nav-tabs > li > a:hover {
+        .nav-tabs>li>a:focus,
+        .nav-tabs>li>a:hover {
             background-color: #e6e6e6;
             color: #676a6c
         }
@@ -3421,7 +3748,8 @@
             margin-bottom: 0
         }
 
-        .breadcrumb > .active, .breadcrumb > li a {
+        .breadcrumb>.active,
+        .breadcrumb>li a {
             color: inherit
         }
 
@@ -3453,7 +3781,8 @@
             content: "\f077"
         }
 
-        .ibox:after, .ibox:before {
+        .ibox:after,
+        .ibox:before {
             display: table
         }
 
@@ -3499,16 +3828,19 @@
             padding-right: 20px
         }
 
-        .check-mail, .star-mail {
+        .check-mail,
+        .star-mail {
             width: 40px
         }
 
-        .unread td, .unread td a {
+        .unread td,
+        .unread td a {
             font-weight: 600;
             color: inherit
         }
 
-        .read td, .read td a {
+        .read td,
+        .read td a {
             font-weight: 400;
             color: inherit
         }
@@ -3563,12 +3895,12 @@
             color: #fff
         }
 
-        .ibox-tools .dropdown-menu > li > a {
+        .ibox-tools .dropdown-menu>li>a {
             padding: 4px 10px;
             font-size: 12px
         }
 
-        .ibox .open > .dropdown-menu {
+        .ibox .open>.dropdown-menu {
             left: auto;
             right: 0
         }
@@ -3614,7 +3946,7 @@
             border-color: #1ab394
         }
 
-        .panel-primary > .panel-heading {
+        .panel-primary>.panel-heading {
             background-color: #1ab394;
             border-color: #1ab394
         }
@@ -3623,7 +3955,7 @@
             border-color: #1c84c6
         }
 
-        .panel-success > .panel-heading {
+        .panel-success>.panel-heading {
             background-color: #1c84c6;
             border-color: #1c84c6;
             color: #fff
@@ -3633,7 +3965,7 @@
             border-color: #23c6c8
         }
 
-        .panel-info > .panel-heading {
+        .panel-info>.panel-heading {
             background-color: #23c6c8;
             border-color: #23c6c8;
             color: #fff
@@ -3643,7 +3975,7 @@
             border-color: #f8ac59
         }
 
-        .panel-warning > .panel-heading {
+        .panel-warning>.panel-heading {
             background-color: #f8ac59;
             border-color: #f8ac59;
             color: #fff
@@ -3653,7 +3985,7 @@
             border-color: #ed5565
         }
 
-        .panel-danger > .panel-heading {
+        .panel-danger>.panel-heading {
             background-color: #ed5565;
             border-color: #ed5565;
             color: #fff
@@ -3663,15 +3995,18 @@
             background-color: #1ab394
         }
 
-        .progress-small, .progress-small .progress-bar {
+        .progress-small,
+        .progress-small .progress-bar {
             height: 10px
         }
 
-        .progress-mini, .progress-small {
+        .progress-mini,
+        .progress-small {
             margin-top: 5px
         }
 
-        .progress-mini, .progress-mini .progress-bar {
+        .progress-mini,
+        .progress-mini .progress-bar {
             height: 5px;
             margin-bottom: 0
         }
@@ -3753,7 +4088,18 @@
             box-shadow: 0 0 3px 0 #919191
         }
 
-        .ComposeEmail .navbar.navbar-static-top, .Dashboard_2 .navbar.navbar-static-top, .Dashboard_3 .navbar.navbar-static-top, .Dashboard_4_1 .navbar.navbar-static-top, .EmailView .navbar.navbar-static-top, .Inbox .navbar.navbar-static-top, .dashboards\.dashboard_2 nav.navbar, .dashboards\.dashboard_3 nav.navbar, .dashboards\.dashboard_4_1 nav.navbar, .mailbox\.email_compose nav.navbar, .mailbox\.email_view nav.navbar, .mailbox\.inbox nav.navbar {
+        .ComposeEmail .navbar.navbar-static-top,
+        .Dashboard_2 .navbar.navbar-static-top,
+        .Dashboard_3 .navbar.navbar-static-top,
+        .Dashboard_4_1 .navbar.navbar-static-top,
+        .EmailView .navbar.navbar-static-top,
+        .Inbox .navbar.navbar-static-top,
+        .dashboards\.dashboard_2 nav.navbar,
+        .dashboards\.dashboard_3 nav.navbar,
+        .dashboards\.dashboard_4_1 nav.navbar,
+        .mailbox\.email_compose nav.navbar,
+        .mailbox\.email_view nav.navbar,
+        .mailbox\.inbox nav.navbar {
             background: #fff
         }
 
@@ -4150,15 +4496,23 @@
             color: inherit
         }
 
-        .invoice-table tbody > tr > td:last-child, .invoice-table tbody > tr > td:nth-child(2), .invoice-table tbody > tr > td:nth-child(3), .invoice-table tbody > tr > td:nth-child(4), .invoice-table thead > tr > th:last-child, .invoice-table thead > tr > th:nth-child(2), .invoice-table thead > tr > th:nth-child(3), .invoice-table thead > tr > th:nth-child(4), .invoice-total > tbody > tr > td:first-child {
+        .invoice-table tbody>tr>td:last-child,
+        .invoice-table tbody>tr>td:nth-child(2),
+        .invoice-table tbody>tr>td:nth-child(3),
+        .invoice-table tbody>tr>td:nth-child(4),
+        .invoice-table thead>tr>th:last-child,
+        .invoice-table thead>tr>th:nth-child(2),
+        .invoice-table thead>tr>th:nth-child(3),
+        .invoice-table thead>tr>th:nth-child(4),
+        .invoice-total>tbody>tr>td:first-child {
             text-align: right
         }
 
-        .invoice-total > tbody > tr > td {
+        .invoice-total>tbody>tr>td {
             border: 0 none
         }
 
-        .invoice-total > tbody > tr > td:last-child {
+        .invoice-total>tbody>tr>td:last-child {
             border-bottom: 1px solid #DDD;
             text-align: right;
             width: 15%
@@ -4292,7 +4646,8 @@
             background: #f6f6f6
         }
 
-        ul.notes li, ul.tag-list li {
+        ul.notes li,
+        ul.tag-list li {
             list-style: none
         }
 
@@ -4358,7 +4713,8 @@
             top: -10px
         }
 
-        ul.notes li div:focus, ul.notes li div:hover {
+        ul.notes li div:focus,
+        ul.notes li div:hover {
             -webkit-transform: scale(1.1);
             -moz-transform: scale(1.1);
             -o-transform: scale(1.1);
@@ -4477,7 +4833,8 @@
             margin: 15px 0
         }
 
-        .file .icon, .file .image {
+        .file .icon,
+        .file .image {
             height: 100px;
             overflow: hidden
         }
@@ -4549,19 +4906,22 @@
             padding-bottom: 15px
         }
 
-        .feed-element, .feed-element .media {
+        .feed-element,
+        .feed-element .media {
             margin-top: 15px
         }
 
-        .feed-element, .media-body {
+        .feed-element,
+        .media-body {
             overflow: hidden
         }
 
-        .feed-element > .pull-left {
+        .feed-element>.pull-left {
             margin-right: 10px
         }
 
-        .dropdown-messages-box img.img-circle, .feed-element img.img-circle {
+        .dropdown-messages-box img.img-circle,
+        .feed-element img.img-circle {
             width: 38px;
             height: 38px
         }
@@ -4652,7 +5012,8 @@
             width: 23%
         }
 
-        .project-actions, .project-people {
+        .project-actions,
+        .project-people {
             text-align: right;
             vertical-align: middle
         }
@@ -4759,12 +5120,15 @@
             z-index: 20012
         }
 
-        .chat-statistic, .chat-users {
+        .chat-statistic,
+        .chat-users {
             margin-left: -30px
         }
 
         @media (max-width: 992px) {
-            .chat-statistic, .chat-users {
+
+            .chat-statistic,
+            .chat-users {
                 margin-left: 0
             }
         }
@@ -4848,7 +5212,7 @@
             margin-bottom: 0
         }
 
-        .jstree-open > .jstree-anchor > .fa-folder:before {
+        .jstree-open>.jstree-anchor>.fa-folder:before {
             content: "\f07c"
         }
 
@@ -4912,7 +5276,9 @@
             color: #a7aaab
         }
 
-        .clients-list .nav-tabs > li.active > a, .clients-list .nav-tabs > li.active > a:focus, .clients-list .nav-tabs > li.active > a:hover {
+        .clients-list .nav-tabs>li.active>a,
+        .clients-list .nav-tabs>li.active>a:focus,
+        .clients-list .nav-tabs>li.active>a:hover {
             border-bottom: 1px solid #fff
         }
 
@@ -4920,7 +5286,8 @@
             font-weight: 700
         }
 
-        .blog .btn, .blog h5 {
+        .blog .btn,
+        .blog h5 {
             margin: 0 0 5px
         }
 
@@ -5105,7 +5472,7 @@
             font-size: 11px
         }
 
-        .small-chat-box .content > div {
+        .small-chat-box .content>div {
             padding-bottom: 20px
         }
 
@@ -5196,7 +5563,8 @@
             margin: 0 auto
         }
 
-        .sk-spinner-double-bounce .sk-double-bounce1, .sk-spinner-double-bounce .sk-double-bounce2 {
+        .sk-spinner-double-bounce .sk-double-bounce1,
+        .sk-spinner-double-bounce .sk-double-bounce2 {
             width: 100%;
             height: 100%;
             border-radius: 50%;
@@ -5215,7 +5583,9 @@
         }
 
         @-webkit-keyframes sk-doubleBounce {
-            0%, 100% {
+
+            0%,
+            100% {
                 -webkit-transform: scale(0);
                 transform: scale(0)
             }
@@ -5227,7 +5597,9 @@
         }
 
         @keyframes sk-doubleBounce {
-            0%, 100% {
+
+            0%,
+            100% {
                 -webkit-transform: scale(0);
                 transform: scale(0)
             }
@@ -5276,7 +5648,10 @@
         }
 
         @-webkit-keyframes sk-waveStretchDelay {
-            0%, 100%, 40% {
+
+            0%,
+            100%,
+            40% {
                 -webkit-transform: scaleY(0.4);
                 transform: scaleY(0.4)
             }
@@ -5288,7 +5663,10 @@
         }
 
         @keyframes sk-waveStretchDelay {
-            0%, 100%, 40% {
+
+            0%,
+            100%,
+            40% {
                 -webkit-transform: scaleY(0.4);
                 transform: scaleY(0.4)
             }
@@ -5306,7 +5684,8 @@
             position: relative
         }
 
-        .sk-spinner-wandering-cubes .sk-cube1, .sk-spinner-wandering-cubes .sk-cube2 {
+        .sk-spinner-wandering-cubes .sk-cube1,
+        .sk-spinner-wandering-cubes .sk-cube2 {
             background-color: #1ab394;
             width: 10px;
             height: 10px;
@@ -5422,7 +5801,8 @@
             animation: sk-chasingDotsRotate 2s infinite linear
         }
 
-        .sk-spinner-chasing-dots .sk-dot1, .sk-spinner-chasing-dots .sk-dot2 {
+        .sk-spinner-chasing-dots .sk-dot1,
+        .sk-spinner-chasing-dots .sk-dot2 {
             width: 60%;
             height: 60%;
             display: inline-block;
@@ -5456,7 +5836,9 @@
         }
 
         @-webkit-keyframes sk-chasingDotsBounce {
-            0%, 100% {
+
+            0%,
+            100% {
                 -webkit-transform: scale(0);
                 transform: scale(0)
             }
@@ -5468,7 +5850,9 @@
         }
 
         @keyframes sk-chasingDotsBounce {
-            0%, 100% {
+
+            0%,
+            100% {
                 -webkit-transform: scale(0);
                 transform: scale(0)
             }
@@ -5508,7 +5892,10 @@
         }
 
         @-webkit-keyframes sk-threeBounceDelay {
-            0%, 100%, 80% {
+
+            0%,
+            100%,
+            80% {
                 -webkit-transform: scale(0);
                 transform: scale(0)
             }
@@ -5520,7 +5907,10 @@
         }
 
         @keyframes sk-threeBounceDelay {
-            0%, 100%, 80% {
+
+            0%,
+            100%,
+            80% {
                 -webkit-transform: scale(0);
                 transform: scale(0)
             }
@@ -5682,7 +6072,10 @@
         }
 
         @-webkit-keyframes sk-circleBounceDelay {
-            0%, 100%, 80% {
+
+            0%,
+            100%,
+            80% {
                 -webkit-transform: scale(0);
                 transform: scale(0)
             }
@@ -5694,7 +6087,10 @@
         }
 
         @keyframes sk-circleBounceDelay {
-            0%, 100%, 80% {
+
+            0%,
+            100%,
+            80% {
                 -webkit-transform: scale(0);
                 transform: scale(0)
             }
@@ -5766,7 +6162,10 @@
         }
 
         @-webkit-keyframes sk-cubeGridScaleDelay {
-            0%, 100%, 70% {
+
+            0%,
+            100%,
+            70% {
                 -webkit-transform: scale3D(1, 1, 1);
                 transform: scale3D(1, 1, 1)
             }
@@ -5778,7 +6177,10 @@
         }
 
         @keyframes sk-cubeGridScaleDelay {
-            0%, 100%, 70% {
+
+            0%,
+            100%,
+            70% {
                 -webkit-transform: scale3D(1, 1, 1);
                 transform: scale3D(1, 1, 1)
             }
@@ -5986,7 +6388,10 @@
         }
 
         @-webkit-keyframes sk-circleFadeDelay {
-            0%, 100%, 39% {
+
+            0%,
+            100%,
+            39% {
                 opacity: 0
             }
 
@@ -5996,7 +6401,10 @@
         }
 
         @keyframes sk-circleFadeDelay {
-            0%, 100%, 39% {
+
+            0%,
+            100%,
+            39% {
                 opacity: 0
             }
 
@@ -6025,7 +6433,8 @@
             float: right !important
         }
 
-        body.rtls .ibox-tools, body.rtls .stat-percent {
+        body.rtls .ibox-tools,
+        body.rtls .stat-percent {
             float: left
         }
 
@@ -6042,7 +6451,7 @@
             margin: 14px 20px 5px 5px
         }
 
-        body.rtls .feed-element > .pull-left {
+        body.rtls .feed-element>.pull-left {
             margin-left: 10px;
             margin-right: 0
         }
@@ -6065,11 +6474,11 @@
             float: left
         }
 
-        body.rtls #toast-container > .toast:before {
+        body.rtls #toast-container>.toast:before {
             margin: auto -1.5em auto .5em
         }
 
-        body.rtls #toast-container > div {
+        body.rtls #toast-container>div {
             padding: 15px 50px 15px 15px
         }
 
@@ -6085,16 +6494,18 @@
             margin-right: -12px
         }
 
-        body.rtls .file-box, body.rtls ul.notes li {
+        body.rtls .file-box,
+        body.rtls ul.notes li {
             float: right
         }
 
-        body.rtls .chat-statistic, body.rtls .chat-users {
+        body.rtls .chat-statistic,
+        body.rtls .chat-users {
             margin-right: -30px;
             margin-left: auto
         }
 
-        body.rtls .dropdown-menu > li > a {
+        body.rtls .dropdown-menu>li>a {
             text-align: right
         }
 
@@ -6108,7 +6519,7 @@
             padding-left: 0
         }
 
-        body.rtls .dd-item > button {
+        body.rtls .dd-item>button {
             float: right
         }
 
@@ -6124,16 +6535,20 @@
         }
 
         @media (max-width: 992px) {
-            body.rtls .chat-statistic, body.rtls .chat-users {
+
+            body.rtls .chat-statistic,
+            body.rtls .chat-users {
                 margin-right: 0
             }
         }
 
-        body.body-small.mini-navbar .footer.fixed, body.rtls.mini-navbar .footer.fixed {
+        body.body-small.mini-navbar .footer.fixed,
+        body.rtls.mini-navbar .footer.fixed {
             margin: 0 70px 0 0
         }
 
-        body.body-small.mini-navbar .footer.fixed, body.rtls.mini-navbar.fixed-sidebar .footer.fixed {
+        body.body-small.mini-navbar .footer.fixed,
+        body.rtls.mini-navbar.fixed-sidebar .footer.fixed {
             margin: 0
         }
 
@@ -6179,7 +6594,11 @@
             margin-left: 20px
         }
 
-        body.rtls .top-navigation #page-wrapper, body.rtls .top-navigation .footer.fixed, body.rtls.mini-navbar .top-navigation #page-wrapper, body.rtls.mini-navbar.top-navigation #page-wrapper, body.rtls.top-navigation .footer.fixed {
+        body.rtls .top-navigation #page-wrapper,
+        body.rtls .top-navigation .footer.fixed,
+        body.rtls.mini-navbar .top-navigation #page-wrapper,
+        body.rtls.mini-navbar.top-navigation #page-wrapper,
+        body.rtls.top-navigation .footer.fixed {
             margin: 0
         }
 
@@ -6255,7 +6674,10 @@
             color: #fff
         }
 
-        .blue-skin, .default-skin, .ultra-skin, .yellow-skin {
+        .blue-skin,
+        .default-skin,
+        .ultra-skin,
+        .yellow-skin {
             text-align: center
         }
 
@@ -6303,7 +6725,8 @@
             color: #a7b1c2
         }
 
-        .page-tabs a.active i:hover, .page-tabs a.active:hover {
+        .page-tabs a.active i:hover,
+        .page-tabs a.active:hover {
             background: #293846;
             color: #fff
         }
@@ -6341,15 +6764,15 @@
             border: none
         }
 
-        .skin-1 .nav > li.active {
+        .skin-1 .nav>li.active {
             background: #3a4459
         }
 
-        .skin-1 .nav > li > a {
+        .skin-1 .nav>li>a {
             color: #9ea6b9
         }
 
-        .skin-1 .nav > li.active > a {
+        .skin-1 .nav>li.active>a {
             color: #fff
         }
 
@@ -6385,7 +6808,8 @@
             background: #f4f6fa
         }
 
-        .skin-1 .ibox-content, .skin-1 .ibox-title {
+        .skin-1 .ibox-content,
+        .skin-1 .ibox-title {
             border-width: 1px
         }
 
@@ -6393,7 +6817,7 @@
             border-style: solid
         }
 
-        .skin-1 .nav > li.active {
+        .skin-1 .nav>li.active {
             border: none
         }
 
@@ -6419,12 +6843,13 @@
             border-radius: 5px
         }
 
-        .skin-1 .navbar-default .nav > li > a:focus, .skin-1 .navbar-default .nav > li > a:hover {
+        .skin-1 .navbar-default .nav>li>a:focus,
+        .skin-1 .navbar-default .nav>li>a:hover {
             background: #39aef5;
             color: #fff
         }
 
-        .skin-1 .nav.nav-tabs > li.active > a {
+        .skin-1 .nav.nav-tabs>li.active>a {
             color: #555
         }
 
@@ -6432,7 +6857,7 @@
             border-bottom: solid 2px #39aef5
         }
 
-        .skin-1 .nav.nav-tabs > li.active {
+        .skin-1 .nav.nav-tabs>li.active {
             background: 0 0
         }
 
@@ -6441,7 +6866,8 @@
             color: #fff
         }
 
-        .skin-1 .page-tabs a.active i:hover, .skin-1 .page-tabs a.active:hover {
+        .skin-1 .page-tabs a.active i:hover,
+        .skin-1 .page-tabs a.active:hover {
             background: #0e9aef;
             color: #fff
         }
@@ -6483,7 +6909,7 @@
             border: none
         }
 
-        .skin-3 .nav > li.active {
+        .skin-3 .nav>li.active {
             background: #38283c
         }
 
@@ -6491,11 +6917,11 @@
             background: #fff
         }
 
-        .skin-3 .nav > li > a {
+        .skin-3 .nav>li>a {
             color: #948b96
         }
 
-        .skin-3 .nav > li.active > a {
+        .skin-3 .nav>li.active>a {
             color: #fff
         }
 
@@ -6527,7 +6953,8 @@
             background: #f4f6fa
         }
 
-        .skin-3 .ibox-content, .skin-3 .ibox-title {
+        .skin-3 .ibox-content,
+        .skin-3 .ibox-title {
             border-width: 1px
         }
 
@@ -6535,7 +6962,7 @@
             border-style: solid
         }
 
-        .skin-3 .nav > li.active {
+        .skin-3 .nav>li.active {
             border: none
         }
 
@@ -6561,12 +6988,13 @@
             border-radius: 5px
         }
 
-        .skin-3 .navbar-default .nav > li > a:focus, .skin-3 .navbar-default .nav > li > a:hover {
+        .skin-3 .navbar-default .nav>li>a:focus,
+        .skin-3 .navbar-default .nav>li>a:hover {
             background: #38283c;
             color: #fff
         }
 
-        .skin-3 .nav.nav-tabs > li.active > a {
+        .skin-3 .nav.nav-tabs>li.active>a {
             color: #555
         }
 
@@ -6574,7 +7002,7 @@
             border-bottom: solid 2px #3e2c42
         }
 
-        .skin-3 .nav.nav-tabs > li.active {
+        .skin-3 .nav.nav-tabs>li.active {
             background: 0 0
         }
 
@@ -6583,13 +7011,17 @@
             color: #fff
         }
 
-        .skin-3 .page-tabs a.active i:hover, .skin-3 .page-tabs a.active:hover {
+        .skin-3 .page-tabs a.active i:hover,
+        .skin-3 .page-tabs a.active:hover {
             background: #38283c;
             color: #fff
         }
 
         @media (min-width: 768px) {
-            .navbar-top-links .dropdown-alerts, .navbar-top-links .dropdown-messages, .navbar-top-links .dropdown-tasks {
+
+            .navbar-top-links .dropdown-alerts,
+            .navbar-top-links .dropdown-messages,
+            .navbar-top-links .dropdown-tasks {
                 margin-left: auto
             }
         }
@@ -6603,7 +7035,8 @@
                 width: 70px
             }
 
-            .lock-word, .navbar-form-custom {
+            .lock-word,
+            .navbar-form-custom {
                 display: none
             }
 
@@ -6835,7 +7268,10 @@
             font-size: 12px
         }
 
-        .checkbox input[type=checkbox], .checkbox-inline input[type=checkbox], .radio input[type=radio], .radio-inline input[type=radio] {
+        .checkbox input[type=checkbox],
+        .checkbox-inline input[type=checkbox],
+        .radio input[type=radio],
+        .radio-inline input[type=radio] {
             margin-top: -4px
         }
 
@@ -6849,7 +7285,10 @@
             height: 240px
         }
 
-        .checkbox-inline, .checkbox-inline + .checkbox-inline, .radio-inline, .radio-inline + .radio-inline {
+        .checkbox-inline,
+        .checkbox-inline+.checkbox-inline,
+        .radio-inline,
+        .radio-inline+.radio-inline {
             margin: 0 15px 0 0
         }
 
@@ -6960,331 +7399,347 @@
         }
     </style>
 </head>
+
 <body class="gray-bg">
-<div class="row  border-bottom white-bg dashboard-header">
-    <div class="col-sm-12 text-center">
-        <span style="color: #1ab394; font-size: 20px; font-weight: 700">测试报告</span>
+    <div class="row  border-bottom white-bg dashboard-header">
+        <div class="col-sm-12 text-center">
+            <span style="color: #1ab394; font-size: 20px; font-weight: 700">測試報告</span>
+        </div>
     </div>
-</div>
-<div class="wrapper wrapper-content animated fadeInRight">
-    <div class="row">
-        <div class="col-sm-12">
-            <div class="ibox float-e-margins">
-                <div class="ibox-title">
-                    <h5>报告汇总</h5>
-                    <div class="ibox-tools">
-                        <a class="collapse-link">
-                            <i class="fa fa-chevron-up"></i>
-                        </a>
-                        <a class="close-link">
-                            <i class="fa fa-times"></i>
-                        </a>
-                    </div>
-                </div>
-                <div class="ibox-content">
-                    <div class="row">
-                        <div class="col-sm-6 b-r" style="height:350px">
-                            <form class="form-horizontal">
-                                <div class="form-group">
-                                    <label class="col-sm-2 control-label text-navy">用例名称:</label>
-                                    <div class="col-sm-5">
-                                        <span class="form-control" id="testName"></span>
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <label class="col-sm-2 control-label text-navy">用例总数:</label>
-                                    <div class="col-sm-5">
-                                        <span class="form-control" id="testAll"></span>
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <label class="col-sm-2 control-label text-navy">用例通过:</label>
-                                    <div class="col-sm-5">
-                                        <span class="form-control" id="testPass"></span>
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <label class="col-sm-2 control-label text-danger">用例失败:</label>
-                                    <div class="col-sm-5">
-                                        <span class="form-control text-danger" id="testFail"></span>
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <label class="col-sm-2 control-label text-warning">用例跳过:</label>
-                                    <div class="col-sm-5">
-                                        <span class="form-control text-warning" id="testSkip"></span>
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <label class="col-sm-2 control-label text-navy">开始时间:</label>
-                                    <div class="col-sm-5">
-                                        <span class="form-control" id="beginTime"></span>
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <label class="col-sm-2 control-label text-navy">运行时间:</label>
-                                    <div class="col-sm-5">
-                                        <span class="form-control" id="totalTime"></span>
-                                    </div>
-                                </div>
-                            </form>
+    <div class="wrapper wrapper-content animated fadeInRight">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="ibox float-e-margins">
+                    <div class="ibox-title">
+                        <h5>報告彙總</h5>
+                        <div class="ibox-tools">
+                            <a class="collapse-link">
+                                <i class="fa fa-chevron-up"></i>
+                            </a>
+                            <a class="close-link">
+                                <i class="fa fa-times"></i>
+                            </a>
                         </div>
-                        <div class="col-sm-6">
-                            <div style="height:350px" id="echarts-map-chart"></div>
+                    </div>
+                    <div class="ibox-content">
+                        <div class="row">
+                            <div class="col-sm-6 b-r" style="height:350px">
+                                <form class="form-horizontal">
+                                    <div class="form-group">
+                                        <label class="col-sm-2 control-label text-navy">test case名稱:</label>
+                                        <div class="col-sm-5">
+                                            <span class="form-control" id="testName"></span>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-sm-2 control-label text-navy">test case總數:</label>
+                                        <div class="col-sm-5">
+                                            <span class="form-control" id="testAll"></span>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-sm-2 control-label text-navy">test case通過:</label>
+                                        <div class="col-sm-5">
+                                            <span class="form-control" id="testPass"></span>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-sm-2 control-label text-danger">test case失敗:</label>
+                                        <div class="col-sm-5">
+                                            <span class="form-control text-danger" id="testFail"></span>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-sm-2 control-label text-warning">test case跳過:</label>
+                                        <div class="col-sm-5">
+                                            <span class="form-control text-warning" id="testSkip"></span>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-sm-2 control-label text-navy">開始時間:</label>
+                                        <div class="col-sm-5">
+                                            <span class="form-control" id="beginTime"></span>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-sm-2 control-label text-navy">運行時間:</label>
+                                        <div class="col-sm-5">
+                                            <span class="form-control" id="totalTime"></span>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="col-sm-6">
+                                <div style="height:350px" id="echarts-map-chart"></div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="row">
-        <div class="col-sm-12">
-            <div class="ibox float-e-margins">
-                <div class="ibox-title">
-                    <h5>详细数据</h5>
-                    <div class="ibox-tools">
-                        <a class="collapse-link">
-                            <i class="fa fa-chevron-up"></i>
-                        </a>
-                        <a class="close-link">
-                            <i class="fa fa-times"></i>
-                        </a>
-                    </div>
-                </div>
-                <div class="ibox-content">
-                    <div class="input-group panel-heading" style="width: 100%; background-color: #1ab394; margin-bottom: 10px; text-align: left; font-family: Consolas;">
-                        <label style="color: snow">测试类:</label>
-                        <select class="chosen-select form-control" data-placeholder="----------" style="width: 300px;" name="filterClass" id="filterClass">
-                            <option value="">----------</option>
-                        </select>
-                        <label style="color: snow">结果:</label>
-                        <select class="chosen-select form-control" data-placeholder="----------" style="width: 300px;" name="filterResult" id="filterResult">
-                            <option value="">----------</option>
-                        </select>
-                        <div style="float: right">
-                            <label class="form-control">
-                                <span class="text-navy">用例数: </span><span class="text-navy b-r" id="filterAll"></span><span> | </span>
-                                <span style="color: green">成功: </span><span style="color: green" id="filterOk"></span><span> | </span>
-                                <span class="text-danger">失败: </span><span class="text-danger" id="filterFail"></span><span> | </span>
-                                <span class="text-warning">跳过: </span><span class="text-warning" id="filterSkip"></span>
-                            </label>
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="ibox float-e-margins">
+                    <div class="ibox-title">
+                        <h5>詳細數據</h5>
+                        <div class="ibox-tools">
+                            <a class="collapse-link">
+                                <i class="fa fa-chevron-up"></i>
+                            </a>
+                            <a class="close-link">
+                                <i class="fa fa-times"></i>
+                            </a>
                         </div>
                     </div>
-                    <table class="table table-bordered">
-                        <thead>
-                        <tr>
-                            <th>编号</th><th>测试类</th><th>测试方法</th><th>用例描述</th><th>耗时</th><th>结果</th><th>操作</th>
-                        </tr>
-                        </thead>
-                        <tbody id="detailBody">
-                        </tbody>
-                    </table>
+                    <div class="ibox-content">
+                        <div class="input-group panel-heading"
+                            style="width: 100%; background-color: #1ab394; margin-bottom: 10px; text-align: left; font-family: Consolas;">
+                            <label style="color: snow">測試類:</label>
+                            <select class="chosen-select form-control" data-placeholder="----------"
+                                style="width: 300px;" name="filterClass" id="filterClass">
+                                <option value="">----------</option>
+                            </select>
+                            <label style="color: snow">結果:</label>
+                            <select class="chosen-select form-control" data-placeholder="----------"
+                                style="width: 300px;" name="filterResult" id="filterResult">
+                                <option value="">----------</option>
+                            </select>
+                            <div style="float: right">
+                                <label class="form-control">
+                                    <span class="text-navy">test case總數: </span><span class="text-navy b-r"
+                                        id="filterAll"></span><span> | </span>
+                                    <span style="color: green">成功: </span><span style="color: green"
+                                        id="filterOk"></span><span> | </span>
+                                    <span class="text-danger">失敗: </span><span class="text-danger"
+                                        id="filterFail"></span><span> | </span>
+                                    <span class="text-warning">跳過: </span><span class="text-warning"
+                                        id="filterSkip"></span>
+                                </label>
+                            </div>
+                        </div>
+                        <table class="table table-bordered">
+                            <thead>
+                                <tr>
+                                    <th>編號</th>
+                                    <th>測試類</th>
+                                    <th>測試方法</th>
+                                    <th>test case描述</th>
+                                    <th>耗時</th>
+                                    <th>结果</th>
+                                    <th>操作</th>
+                                </tr>
+                            </thead>
+                            <tbody id="detailBody">
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
-<script src="https://cdn.bootcss.com/jquery/2.1.4/jquery.min.js"></script>
-<script src="https://cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-<script src="https://cdn.bootcss.com/echarts/3.8.5/echarts.min.js"></script>
-<script src="https://cdn.bootcss.com/chosen/1.8.2/chosen.jquery.js"></script>
-<script type="text/javascript">
-	function $childNode(o) {
-	    return window.frames[o]
-	}
-	function animationHover(o, e) {
-	    o = $(o), o.hover(function () {
-	        o.addClass("animated " + e)
-	    }, function () {
-	        window.setTimeout(function () {
-	            o.removeClass("animated " + e)
-	        }, 2e3)
-	    })
-	}
-	function WinMove() {
-	    var o = "[class*=col]", e = ".ibox-title", i = "[class*=col]";
-	    $(o).sortable({
-	        handle: e,
-	        connectWith: i,
-	        tolerance: "pointer",
-	        forcePlaceholderSize: !0,
-	        opacity: .8
-	    }).disableSelection()
-	}
-	var $parentNode = window.parent.document;
-	if ($(".tooltip-demo").tooltip({
-	        selector: "[data-toggle=tooltip]",
-	        container: "body"
-	    }), $(".modal").appendTo("body"), $("[data-toggle=popover]").popover(), $(".collapse-link").click(function () {
-	        var o = $(this).closest("div.ibox"), e = $(this).find("i"), i = o.find("div.ibox-content");
-	        i.slideToggle(200), e.toggleClass("fa-chevron-up").toggleClass("fa-chevron-down"), o.toggleClass("").toggleClass("border-bottom"), setTimeout(function () {
-	            o.resize(), o.find("[id^=map-]").resize()
-	        }, 50)
-	    }), $(".close-link").click(function () {
-	        var o = $(this).closest("div.ibox");
-	        o.remove()
-	    }), top == this) {
-	}
-</script>
-<script type="text/javascript">
-    var resultData = ${resultData};
 
-    function clickRow(obj){
-        $("#detailBody").children("tr").attr("style","font-family: Consolas");
-        $(obj).attr("style","font-family: Consolas; background-color: #b0d877");
-    }
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/4.6.1/js/bootstrap.min.js"></script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/echarts/5.2.2/echarts.min.js"></script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/chosen/1.8.8.rc6/chosen.jquery.js"></script>
+    <script type="text/javascript">
+        function $childNode(o) {
+            return window.frames[o]
+        }
+        function animationHover(o, e) {
+            o = $(o), o.hover(function () {
+                o.addClass("animated " + e)
+            }, function () {
+                window.setTimeout(function () {
+                    o.removeClass("animated " + e)
+                }, 2e3)
+            })
+        }
+        function WinMove() {
+            var o = "[class*=col]", e = ".ibox-title", i = "[class*=col]";
+            $(o).sortable({
+                handle: e,
+                connectWith: i,
+                tolerance: "pointer",
+                forcePlaceholderSize: !0,
+                opacity: .8
+            }).disableSelection()
+        }
+        var $parentNode = window.parent.document;
+        if ($(".tooltip-demo").tooltip({
+            selector: "[data-toggle=tooltip]",
+            container: "body"
+        }), $(".modal").appendTo("body"), $("[data-toggle=popover]").popover(), $(".collapse-link").click(function () {
+            var o = $(this).closest("div.ibox"), e = $(this).find("i"), i = o.find("div.ibox-content");
+            i.slideToggle(200), e.toggleClass("fa-chevron-up").toggleClass("fa-chevron-down"), o.toggleClass("").toggleClass("border-bottom"), setTimeout(function () {
+                o.resize(), o.find("[id^=map-]").resize()
+            }, 50)
+        }), $(".close-link").click(function () {
+            var o = $(this).closest("div.ibox");
+            o.remove()
+        }), top == this) {
+        }
+    </script>
+    <script type="text/javascript">
+        var resultData = ${ resultData };
 
-    function details(obj) {
-        if ($(obj).text() == '展开') {
-            var len = $(obj).parent().parent().children().length;
-            var detailLog = "";
-            var logs = resultData["testResult"][parseInt($(obj).attr("buttonIndex"))]["log"];
-            $(obj).text("收缩");
-            $(obj).removeClass("btn-primary");
-            $(obj).addClass("btn-danger");
-            $.each(logs, function (i, n) {
-                detailLog = detailLog + "<p>" + n + "</p>";
-            });
-            $(obj).parent().parent().after("<tr><td colspan='" + len + "'><div style='font-family: Consolas;font-size:12px'>" + detailLog + "</div></td></tr>");
-        } else if ($(obj).text() == '收缩') {
-            $(obj).parent().parent().next().remove();
-            $(obj).text("展开");
-            $(obj).removeClass("btn-danger");
-            $(obj).addClass("btn-primary");
+        function clickRow(obj) {
+            $("#detailBody").children("tr").attr("style", "font-family: Consolas");
+            $(obj).attr("style", "font-family: Consolas; background-color: #b0d877");
         }
 
-    }
-    $(function () {
-        $("#testName").text(resultData["testName"]);
-        $("#testPass").text(resultData["testPass"]);
-        $("#testFail").text(resultData["testFail"]);
-        $("#testSkip").text(resultData["testSkip"]);
-        $("#testAll").text(resultData["testAll"]);
-        $("#beginTime").text(resultData["beginTime"]);
-        $("#totalTime").text(resultData["totalTime"]);
-        $("#filterAll").text(resultData["testAll"]);
-        $("#filterOk").text(resultData["testPass"]);
-        $("#filterFail").text(resultData["testFail"]);
-        $("#filterSkip").text(resultData["testSkip"]);
-        var classNames = [];
-        var results = [];
-        $.each(resultData["testResult"], function (i, n) {
-            if (classNames.indexOf(n["className"]) == -1) {
-                classNames.push(n["className"]);
+        function details(obj) {
+            if ($(obj).text() == '展開') {
+                var len = $(obj).parent().parent().children().length;
+                var detailLog = "";
+                var logs = resultData["testResult"][parseInt($(obj).attr("buttonIndex"))]["log"];
+                $(obj).text("收縮");
+                $(obj).removeClass("btn-primary");
+                $(obj).addClass("btn-danger");
+                $.each(logs, function (i, n) {
+                    detailLog = detailLog + "<p>" + n + "</p>";
+                });
+                $(obj).parent().parent().after("<tr><td colspan='" + len + "'><div style='font-family: Consolas;font-size:12px'>" + detailLog + "</div></td></tr>");
+            } else if ($(obj).text() == '收縮') {
+                $(obj).parent().parent().next().remove();
+                $(obj).text("展開");
+                $(obj).removeClass("btn-danger");
+                $(obj).addClass("btn-primary");
             }
-            if (results.indexOf(n["status"]) == -1) {
-                results.push(n["status"]);
-            }
-        });
 
-        $.each(classNames, function (i, n) {
-            $("#filterClass").append("<option value='" + n + "' hassubinfo='true'>" + n + "</option>");
-        });
-        $.each(results, function (i, n) {
-            $("#filterResult").append("<option value='" + n + "' hassubinfo='true'>" + n + "</option>");
-        });
-
-        $("#filterClass").chosen({search_contains: true});
-        $("#filterResult").chosen({search_contains: true});
-
-        function generateResult(className, caseResult) {
-            $("#detailBody").children().remove();
-            var filterAll = 0;
-            var filterOk = 0;
-            var filterFail = 0;
-            var filterSkip = 0;
+        }
+        $(function () {
+            $("#testName").text(resultData["testName"]);
+            $("#testPass").text(resultData["testPass"]);
+            $("#testFail").text(resultData["testFail"]);
+            $("#testSkip").text(resultData["testSkip"]);
+            $("#testAll").text(resultData["testAll"]);
+            $("#beginTime").text(resultData["beginTime"]);
+            $("#totalTime").text(resultData["totalTime"]);
+            $("#filterAll").text(resultData["testAll"]);
+            $("#filterOk").text(resultData["testPass"]);
+            $("#filterFail").text(resultData["testFail"]);
+            $("#filterSkip").text(resultData["testSkip"]);
+            var classNames = [];
+            var results = [];
             $.each(resultData["testResult"], function (i, n) {
-                if ((className == "" || n["className"] == className) && (caseResult == "" || n["status"] == caseResult)) {
-                    filterAll += 1;
-                    var status = "";
-                    if (n["status"] == '成功') {
-                        filterOk += 1;
-                        status = "<td><span class='text-navy'>成功</span></td>";
-                    } else if (n["status"] == '失败') {
-                        filterFail += 1;
-                        status = "<td><span class='text-danger'>失败</span></td>";
-                    } else if (n["status"] == '跳过') {
-                        filterSkip += 1;
-                        status = "<td><span class='text-warning'>跳过</span></td>";
-                    } else {
-                        status = "<td><span>" + n["status"] + "</span></td>";
-                    }
-                    var tr = "<tr style='font-family: Consolas'>" +
-                        "<td>" + (i + 1) + "</td>" +
-                        "<td>" + n["className"] + "</td>" +
-                        "<td>" + n["methodName"] + "</td>" +
-                        "<td>" + n["description"] + "</td>" +
-                        "<td>" + n["spendTime"] + "</td>" +
-                        status + "<td><button type='button' onclick='details(this)' buttonIndex='" + i + "' class='btn btn-primary btn-xs' style='margin-bottom: 0px'>展开</button></td></tr>"
-                    $("#detailBody").append(tr);
+                if (classNames.indexOf(n["className"]) == -1) {
+                    classNames.push(n["className"]);
+                }
+                if (results.indexOf(n["status"]) == -1) {
+                    results.push(n["status"]);
                 }
             });
-            $("#filterAll").text(filterAll);
-            $("#filterOk").text(filterOk);
-            $("#filterFail").text(filterFail);
-            $("#filterSkip").text(filterSkip);
-        }
 
-        generateResult("", "");
+            $.each(classNames, function (i, n) {
+                $("#filterClass").append("<option value='" + n + "' hassubinfo='true'>" + n + "</option>");
+            });
+            $.each(results, function (i, n) {
+                $("#filterResult").append("<option value='" + n + "' hassubinfo='true'>" + n + "</option>");
+            });
 
-        $("#filterClass").on('change', function () {
-            var className = $("#filterClass").val();
-            var caseResult = $("#filterResult").val();
-            generateResult(className, caseResult);
-        });
+            $("#filterClass").chosen({ search_contains: true });
+            $("#filterResult").chosen({ search_contains: true });
 
-        $("#filterResult").on('change', function () {
-            var className = $("#filterClass").val();
-            var caseResult = $("#filterResult").val();
-            generateResult(className, caseResult);
-        });
+            function generateResult(className, caseResult) {
+                $("#detailBody").children().remove();
+                var filterAll = 0;
+                var filterOk = 0;
+                var filterFail = 0;
+                var filterSkip = 0;
+                $.each(resultData["testResult"], function (i, n) {
+                    if ((className == "" || n["className"] == className) && (caseResult == "" || n["status"] == caseResult)) {
+                        filterAll += 1;
+                        var status = "";
+                        if (n["status"] == '成功') {
+                            filterOk += 1;
+                            status = "<td><span class='text-navy'>成功</span></td>";
+                        } else if (n["status"] == '失敗') {
+                            filterFail += 1;
+                            status = "<td><span class='text-danger'>失敗</span></td>";
+                        } else if (n["status"] == '跳過') {
+                            filterSkip += 1;
+                            status = "<td><span class='text-warning'>跳過</span></td>";
+                        } else {
+                            status = "<td><span>" + n["status"] + "</span></td>";
+                        }
+                        var tr = "<tr style='font-family: Consolas'>" +
+                            "<td>" + (i + 1) + "</td>" +
+                            "<td>" + n["className"] + "</td>" +
+                            "<td>" + n["methodName"] + "</td>" +
+                            "<td>" + n["description"] + "</td>" +
+                            "<td>" + n["spendTime"] + "</td>" +
+                            status + "<td><button type='button' onclick='details(this)' buttonIndex='" + i + "' class='btn btn-primary btn-xs' style='margin-bottom: 0px'>展開</button></td></tr>"
+                        $("#detailBody").append(tr);
+                    }
+                });
+                $("#filterAll").text(filterAll);
+                $("#filterOk").text(filterOk);
+                $("#filterFail").text(filterFail);
+                $("#filterSkip").text(filterSkip);
+            }
 
-        //$(".chosen-select").trigger("chosen:updated");
+            generateResult("", "");
 
-        function pie() {
-            var option = {
-                title: {
-                    text: '测试用例运行结果',
-                    subtext: '',
-                    x: 'center'
-                },
-                tooltip: {
-                    trigger: 'item',
-                    formatter: "{a} <br/>{b} : {c} ({d}%)"
-                },
-                legend: {
-                    orient: 'vertical',
-                    left: 'left',
-                    data: ['失败', '跳过', '成功']
-                },
-                series: [
-                    {
-                        name: '运行结果',
-                        type: 'pie',
-                        radius: '55%',
-                        center: ['50%', '60%'],
-                        data: [
-                            {value: resultData["testFail"], name: '失败'},
-                            {value: resultData["testSkip"], name: '跳过'},
-                            {value: resultData["testPass"], name: '成功'}
-                        ],
-                        itemStyle: {
-                            emphasis: {
-                                shadowBlur: 10,
-                                shadowOffsetX: 0,
-                                shadowColor: 'rgba(0, 0, 0, 0.5)'
+            $("#filterClass").on('change', function () {
+                var className = $("#filterClass").val();
+                var caseResult = $("#filterResult").val();
+                generateResult(className, caseResult);
+            });
+
+            $("#filterResult").on('change', function () {
+                var className = $("#filterClass").val();
+                var caseResult = $("#filterResult").val();
+                generateResult(className, caseResult);
+            });
+
+            //$(".chosen-select").trigger("chosen:updated");
+
+            function pie() {
+                var option = {
+                    title: {
+                        text: 'test case運行結果',
+                        subtext: '',
+                        x: 'center'
+                    },
+                    tooltip: {
+                        trigger: 'item',
+                        formatter: "{a} <br/>{b} : {c} ({d}%)"
+                    },
+                    legend: {
+                        orient: 'vertical',
+                        left: 'left',
+                        data: ['失敗', '跳過', '成功']
+                    },
+                    series: [
+                        {
+                            name: '運行結果',
+                            type: 'pie',
+                            radius: '55%',
+                            center: ['50%', '60%'],
+                            data: [
+                                { value: resultData["testFail"], name: '失敗' },
+                                { value: resultData["testSkip"], name: '跳過' },
+                                { value: resultData["testPass"], name: '成功' }
+                            ],
+                            itemStyle: {
+                                emphasis: {
+                                    shadowBlur: 10,
+                                    shadowOffsetX: 0,
+                                    shadowColor: 'rgba(0, 0, 0, 0.5)'
+                                }
                             }
                         }
-                    }
-                ]
-            };
-            var chart = echarts.init(document.getElementById("echarts-map-chart"));
-            chart.setOption(option);
-        }
+                    ]
+                };
+                var chart = echarts.init(document.getElementById("echarts-map-chart"));
+                chart.setOption(option);
+            }
 
-        pie();
-    });
+            pie();
+        });
 
-</script>
+    </script>
 </body>
+
 </html>
