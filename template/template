@@ -7413,12 +7413,6 @@
                     <div class="ibox-title">
                         <h5>報告彙總</h5>
                         <div class="ibox-tools">
-                            <a class="collapse-link">
-                                <i class="fa fa-chevron-up"></i>
-                            </a>
-                            <a class="close-link">
-                                <i class="fa fa-times"></i>
-                            </a>
                         </div>
                     </div>
                     <div class="ibox-content">
@@ -7483,12 +7477,6 @@
                     <div class="ibox-title">
                         <h5>詳細數據</h5>
                         <div class="ibox-tools">
-                            <a class="collapse-link">
-                                <i class="fa fa-chevron-up"></i>
-                            </a>
-                            <a class="close-link">
-                                <i class="fa fa-times"></i>
-                            </a>
                         </div>
                     </div>
                     <div class="ibox-content">
