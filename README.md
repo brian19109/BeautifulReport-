@@ -1,4 +1,3 @@
-# 項目年久失修, 有問題可以直接聯系作者
 ## 優化內容:
 -  [頁面錯誤](https://blog.csdn.net/LucklyTiger/article/details/124683042 "頁面錯誤")
 -  [多線程優化](https://blog.csdn.net/a15874301023/article/details/121765905 "多線程優化")
