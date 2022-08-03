@@ -75,7 +75,7 @@ class MakeResultJson:
     def __init__(self, datas: tuple):
         """
         init self object
-        :param datas: 拿到所有返回数据结构
+        :param datas: 拿到所有返回數據結構
         """
         self.datas = datas
         self.result_schema = {}
@@ -91,9 +91,9 @@ class MakeResultJson:
 
     def __repr__(self) -> str:
         """
-            返回对象的html结构体
+            返回對象的html結構
         :rtype: dict
-        :return: self的repr对象, 返回一个构造完成的tr表单
+        :return: self的repr對象, 返回一個構造完成的tr表單
         """
         keys = (
             'className',
@@ -148,15 +148,15 @@ class ReportTestResult(unittest.TestResult):
     @success_counter.setter
     def success_counter(self, value) -> None:
         """
-            success_counter函数的setter方法, 用于改变成功的case数量
-        :param value: 当前传递进来的成功次数的int数值
+            success_counter函數的setter方法, 用於改變成功的case變量
+        :param value: 當前傳遞進來的成功次數的int數值
         :return:
         """
         self.success_count = value
 
     def startTest(self, test) -> None:
         """
-            当测试用例测试即将运行时调用
+            當測試用例測試即將運行時調用
         :return:
         """
         unittest.TestResult.startTest(self, test)
@@ -171,7 +171,7 @@ class ReportTestResult(unittest.TestResult):
 
     def stopTest(self, test) -> None:
         """
-            当测试用力执行完成后进行调用
+            當測試用例執行完成後進行調用
         :return:
         """
         self.end_time = '{0:.3} s'.format((time.time() - self.start_time))
@@ -192,7 +192,7 @@ class ReportTestResult(unittest.TestResult):
 
     def stopTestRun(self, title=None) -> dict:
         """
-            所有测试执行完成后, 执行该方法
+            所有測試執行完成後, 執行該方法
         :param title:
         :return:
         """
@@ -218,7 +218,7 @@ class ReportTestResult(unittest.TestResult):
 
     def get_all_result_info_tuple(self, test) -> tuple:
         """
-            接受test 相关信息, 并拼接成一个完成的tuple结构返回
+            接受test 相關信息, 並拼接成一個完成的tuple結構返回
         :param test:
         :return:
         """
@@ -227,7 +227,7 @@ class ReportTestResult(unittest.TestResult):
     @staticmethod
     def error_or_failure_text(err) -> str:
         """
-            获取sys.exc_info()的参数并返回字符串类型的数据, 去掉t6 error
+            獲取sys.exc_info()的參數並返回字符串類型的數據, 去掉t6 error
         :param err:
         :return:
         """
@@ -299,7 +299,7 @@ class ReportTestResult(unittest.TestResult):
 
     def addSkip(self, test, reason) -> None:
         """
-            获取全部的跳过的case信息
+            獲取全部的跳過的case信息
         :param test:
         :param reason:
         :return: None
@@ -330,7 +330,7 @@ class ReportTestResult(unittest.TestResult):
     @staticmethod
     def get_testcase_property(test) -> tuple:
         """
-            接受一个test, 并返回一个test的class_name, method_name, method_doc属性
+            接受一個test, 並返回一個test的class_name, method_name, method_doc屬性
         :param test:
         :return: (class_name, method_name, method_doc) -> tuple
         """
@@ -352,7 +352,7 @@ class BeautifulReport(ReportTestResult, PATH):
 
     def report(self, description, filename: str = None, log_path='.'):
         """
-            生成测试报告,并放在当前运行路径下
+            生成測試報告,並放在當前運行路徑下
         :param log_path: 生成report的文件存储路径
         :param filename: 生成文件的filename
         :param description: 生成文件的注释
@@ -369,12 +369,12 @@ class BeautifulReport(ReportTestResult, PATH):
         self.suites.run(result=self)
         self.stopTestRun(self.title)
         self.output_report()
-        text = '\n測試已全部完成, 可前往{}查詢測試報告'.format(self.log_path)
+        text = "\n測試已全部完成, 可前往{}查詢測試報告".format(self.log_path)
         print(text)
 
     def output_report(self):
         """
-            生成测试报告到指定路径下
+            生成測試報告到指定路徑下
         :return:
         """
         template_path = self.config_tmp_path
@@ -398,9 +398,9 @@ class BeautifulReport(ReportTestResult, PATH):
     @staticmethod
     def img2base(img_path: str, file_name: str) -> str:
         """
-            接受传递进函数的filename 并找到文件转换为base64格式
-        :param img_path: 通过文件名及默认路径找到的img绝对路径
-        :param file_name: 用户在装饰器中传递进来的问价匿名
+            接受傳遞進函數的filename 並找到文件轉換為base64格式
+        :param img_path: 通過文件名及默認路徑找到的img絕對路徑
+        :param file_name: 用戶在裝飾器中傳遞進來的問價匿名
         :return:
         """
         pattern = '/' if platform != 'Windows' else '\\'
@@ -411,7 +411,7 @@ class BeautifulReport(ReportTestResult, PATH):
 
     def add_test_img(*pargs):
         """
-            接受若干个图片元素, 并展示在测试报告中
+            接受若干個圖片元素, 並展示在測試報告中
         :param pargs:
         :return:
         """
