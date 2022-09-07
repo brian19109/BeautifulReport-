@@ -1,6 +1,6 @@
 # 關於
 由於原作者已多年沒有更新，所以有許多bugs，此package主要功能
-### h3修復
+### 修復
 * test report無資料
 * HTML模板btn修復
 ### 優化
